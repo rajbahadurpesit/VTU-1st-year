@@ -1,0 +1,65 @@
+1a.html
+<?xmlversion="1.0" encoding="utf-8"?
+
+<!DOCTYPE html PUBLIC "-//w3/DTDXHTML1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3c.org/1999/xhtml">
+<head>
+<title> Fibonacci </title>
+</head>
+
+<body>
+<script type="text/javascript">
+var a=0,b=1,c,i,n
+n=prompt("enter the no of fib no's needed")
+if(n<=0)
+alert("invalid")
+else
+{
+if(n==1)
+document.write(a)
+else
+{
+document.write(a+"<br/>"+b)
+for(i=3;i<=n;i++)
+{
+c=a+b;
+a=b;
+b=c;
+document.write("<br/>"+c)
+}
+}
+}
+</script>
+</body>
+</html>
+
+
+1b.html
+<?xmlversion="1.0" encoding="utf-8"?
+
+<!DOCTYPE html PUBLIC "-//w3/DTDXHTML1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3c.org/1999/xhtml">
+<head>
+<title> Squares </title>
+</head>
+
+<body><script type="text/javascript">
+var n,i,c
+n=prompt("enter the no of squares of no's needed")
+if(n<0)
+alert("invalid")
+else
+{
+c="squares"
+for(i=1;i<=n;i++)
+{
+c=(c+"\n"+i+" -----> "+i*i);
+}
+alert(c)
+}
+</script>
+
+</body>
+</html>

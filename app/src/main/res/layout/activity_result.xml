@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="simple.raj.com.vturesult.Result1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter USN"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txt"
+        android:textSize="20dp"
+        />
+
+
+    <EditText
+        android:layout_below="@+id/txt"
+        android:layout_width="fill_parent"
+
+        android:layout_height="50dp"
+
+
+        android:id="@+id/editPhone"
+
+        android:inputType="text"
+
+        android:maxLength="10"
+
+        android:clickable="true"
+
+        android:hint="USN" />
+
+
+
+    <Button
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="50dp"
+
+        android:layout_below="@+id/editPhone"
+
+        android:id="@+id/nextBtn"
+
+        android:text="Submit"
+        android:textColor="#ffffff"
+        android:background="#ff184c63"
+        android:textSize="20dp"/>
+
+
+
+</RelativeLayout>

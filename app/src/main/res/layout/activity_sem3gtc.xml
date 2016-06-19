@@ -1,0 +1,233 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="0dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:paddingLeft="5dp"
+        android:paddingRight="0dp">
+        <TextView android:text="GRAPH THEORY AND COMBINATORICS" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="21dp"
+            android:textColor="#ff005c00"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center"/>
+        <TextView android:text="Subject Code: 10CS42&#10;" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="20dp"
+            android:textColor="#ff005c00"
+            android:paddingLeft="50dp"
+            android:paddingRight="20dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;PART-A:"
+            android:textSize="22dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;&#10;UNIT-I: Introduction to Graph Theory:"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Definitions  and  Examples,  Sub-graphs,  Complements,  and Graph  isomorphism,  Vertex  Degree,
+Euler Trails and Circuits. [7 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-II : Introduction to Graph Theory contd.:"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Planar Graphs,   Hamilton  Paths  and Cycles,   Graph Colouring,  and  Chromatic  Polynomials. [6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-III: Trees:"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Definitions, Properties, and Examples, Routed Trees, Trees and Sorting, Weighted Trees and Prefix Codes. [6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-IV: Optimization and Matching:"
+            android:textSize="19dp"
+            android:textColor="#ff212185"
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="&#10; Dijkstra’s Shortest Path Algorithm,  Minimal  Spanning  Trees – The algorithms of Kruskal  and  Prim,  Transport Networks – Max-flow,  Min-cut Theorem,  Matching Theory. [7 Hours]&#10;"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;PART-B:"
+            android:textSize="22dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="&#10;&#10;UNIT-V: Fundamental Principles of Counting:"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; The Rules of Sum and Product, Permutations, Combinations – The Binomial Theorem,
+Combinations with Repetition,  The Catalon Numbers. [6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="UNIT-VI: The Principle of Inclusion and Exclusion:"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; The Principle of Inclusion and Exclusion, Generalizations of the Principle,
+Derangements – Nothing is in its Right Place, Rook Polynomials. [6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="UNIT-VII: Generating Functions:"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Introductory Examples,  Definition and Examples – Calculational Techniques,  Partitions of Integers,  the Exponential Generating Function,  the Summation Operator. [7 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="UNIT-VIII: Recurrence Relations:"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; First Order  Linear  Recurrence  Relation,   The Second  Order  Linear  Homogeneous  Recurrence  Relation  with  Constant  Coefficients,  The Non-homogeneous Recurrence Relation,  The Method of Generating Functions. [7 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Text Books:&#10;"
+            android:textColor="#ff005c00"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="1. Ralph P. Grimaldi: Discrete and Combinatorial Mathematics, 5th Edition, Pearson Education, 2004.
+(Chapter 11, Chapter 12.1 to 12.4, Chapter 13, Chapter 1, Chapter 8.1 to 8.4, Chapter 9 Chapter 10.1 to 10.4)."
+            android:textColor="#ff00000f"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Reference Books:&#10;"
+            android:textColor="#ff005c00"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="1. D.S. Chandrasekharaiah: Graph Theory and Combinatorics, Prism, 2005.&#10;
+2. Chartrand Zhang: Introduction to Graph Theory, TMH, 2006.&#10;
+3. Richard A. Brualdi: Introductory Combinatorics, 4th Edition, Pearson Education, 2004.&#10;
+4. Geir Agnarsson and Raymond Geenlaw: Graph Theory, Pearson Education, 2007.&#10;"
+            android:textColor="#ff00000f"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

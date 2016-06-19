@@ -1,0 +1,57 @@
+8.html
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Perl Database Interfaces</title>
+</head>
+
+<body>
+<form action="http://localhost/cgi-bin/8.pl" method="post">
+<p>
+<b>Enter Your Information</b> <br />
+Name: <input type="text" name="name"/><br/>
+Age: <input type="text" name="age" /> <br />
+<input type="submit" value="Add" />
+<input type="reset" value="Clear" />
+</p> </form>
+</body>
+</html>
+
+8.pl
+
+#! /usr/bin/perl
+use CGI':standard';
+print "Content-type: text/html\n\n";
+use DBI;
+$dbh = DBI->connect("DBI:mysql:userinfo","root","root123") or die("error");
+
+$name=param("name");
+$age=param("age");
+$sql="insert into student values ('$name','$age')";
+
+$sth=$dbh->prepare($sql);
+$sth->execute;
+$sql = "select * from student";
+$sth = $dbh->prepare($sql);
+$sth->execute;
+print "<table border size=1><tr>
+<th>name</th>
+<th>age</th>
+</tr>
+";
+
+while(($name,$age)=$sth->fetchrow())
+{
+print "<tr>
+<td>$name</td>
+<td>$age</td>
+</tr>
+";
+}
+$sth->finish();
+$dbh->disconnect();
+print"</table> </HTML>";

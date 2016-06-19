@@ -1,0 +1,55 @@
+	   OOMD(JAN-2014)
+	
+	     PART-A
+
+1(a).What is oject orientation? Explain briefly the stages involved in OO methodology.(10 Marks)
+
+(b).Define the following terms with an example:
+
+   i)Objects         ii)Classes
+   iii)Class diagram  iv)Values and Attributes
+   v)Operations and methods.(10 Marks)	
+
+2a.What is an association end? What are the properties of an association end?(06 Marks)
+
+b.With respect to multiple inheritence, briefly discuss about 
+   i)Multiple Classification.
+   ii)Metadata.(06 Marks)
+
+c.Define state diagrams and state model.Draw the state diagram for telephone line with activities.(08 Marks)
+
+3a.Explain aggregation concurrency within an object with an each example.(08 Marks)
+
+b.Consider an online airline reservation system. You want to check airline website to give you ideas.
+
+   i)List two actor.Explain relavance of each actor.
+   ii)One use case is to make a flight reservation. List four additional use cases at the comparable level of abstraction. Summarise the purpose of each use case with a sentence.
+   iii)Prepare a use diagram for an airline reservation system.(12 Marks)
+
+4a.List and explain different stages in software development process.(10 Marks)
+
+b.List the steps to constuct a domain state model. For an ATM bank system,prepare data dictionary for all modeling elements.(10 marks)
+
+         	PART-B
+
+5a.With a neat sequence diagram, explain process transaction scenario.(08 Marks)
+
+b.Explain the steps followed in constructing application class model.(08 Marks)
+ 
+c.What are the steps in designing a batch transformation?(04 Marks)
+
+6a.What are the steps to improve organisation of class design?Explin.(08 Marks)
+
+b.When fine tuning classes is essential? How is it achieved?(08 Marks)
+
+c.Compare forward engineering and reverse engineering.(04 Marks)
+
+7a.What is pattern? Explain briefly the properties of pattern for software architecture.(08 Marks)
+
+b.Explain Forwarder-Receiver pattern briefly.(12 Marks)
+
+8a.Explain view handler dsign pattern.(08 Marks)
+
+b.Explain singleton design pattern that provides two idioms specific to small talk and C++.(06 Marks)
+
+c.Write the steps to implement the counted pointer idiom.(06 Marks)  

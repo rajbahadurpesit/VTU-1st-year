@@ -1,0 +1,172 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="0dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:paddingLeft="5dp"
+        android:paddingRight="0dp">
+        <TextView android:text="Basic Electronics :(14ELN15/14ELN25)&#10;" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="21dp"
+            android:textColor="#ff005c00"
+            android:paddingLeft="40dp"
+            android:paddingRight="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-1:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Semiconductor Diodes and Applications (Text-1),Bipolar Junction Transistors:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semiconductor Diodes and Applications (Text-1) : p-n junction diode,Characteristics and Parameters, Diode approximations, DC load line analysis,Half-wave rectifier, Two-diode Full-wave rectifier, Bridge rectifier, Capacitorfilter circuit, Zener diode voltage regulators: Regulator circuit with no load,Loaded Regulator, Series and Shunt diode Clipping Circuits, ClampingCircuits: Negative and Positive Clamping Circuits, Numerical examples asapplicable.&#10;
+            &#10;Bipolar Junction Transistors : BJT operation, BJT Voltages and Currents,BJT amplification, Common Base, Common Emitter and Common CollectorCharacteristics, Numerical examples as applicable.&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-2:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;BJT Biasing and Amplifier:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BJT Biasing (Text-1) : DC Load line and Bias Point, Base Bias, Voltagedivider Bias, Numerical examples as applicable. Introduction to Operational Amplifiers (Text-2) : Ideal OPAMP, Invertingand Non Inverting OPAMP circuits, OPAMP applications: voltage follower,addition, subtraction, integration, differentiation; Numerical examples asapplicable..&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-3:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Digital Electronics:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Digital Electronics (Text-2) : Introduction, Switching and Logic Levels,Digital Waveform (Sections 9.1 to 9.3). Number Systems: Decimal NumberSystem, Binary Number System, Converting Decimal to Binary, Hexadecimal Number System: Converting Binary to Hexadecimal, Hexadecimal to Binary,Converting Hexadecimal to Decimal, Converting Decimal to Hexadecimal &#10;Octal Numbers: Binary to Octal Conversion. Complement of Binary Numbers.&#10;&#10;Boolean Algebra Theorems, De Morgan’s theorem. Digital Circuits: Logicgates, NOT Gate, AND Gate, OR Gate, XOR Gate, NAND Gate, NOR Gate,X-NOR Gate. Algebraic Simplification, NAND and NOR Implementation(Sections 11.7 and 11.8): NAND Implementation, NOR Implementation. Halfadder, Full adder.&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-4:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Flip-Flops (Text-2), Microprocessor and Microcontrollers:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text=" Introduction to Flip-Flops (Section 12.1), NAND GateLatch/ NOR Gate Latch, RS Flip-Flop, Gated Flip-Flops: Clocked RS Flip-Flop (Sections 12.3 to 12.5). Microprocessors and Microcontrollers :&#10; (Ref.1 and Ref.2): Introduction to Microprocessors, 8085 Microprocessor Architecture and working.Introduction to Microcontrollers, 8051 Microcontroller Architecture and working.&#10;&#10; TRANSDUCERS (Text-2) : Introduction, Passive Electrical Transducers,Resistive Transducers, Resistance Thermometers, Thermistor. Linear VariableDifferential Transformer (LVDT). Active Electrical Transducers, PiezoelectricTransducer, Photoelectric Transducer..&#10;"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-5:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="&#10;Communication System, Telephone Systems and Optical Fibre Communication :&#10;"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction, Elements of Communication System , Modulation: Amplitude Modulation, Spectrum Power,  AM Detection(Demodulation),  Frequency and Phase Modulation.  Amplitude and Frequency Modulation: A comparison.&#10;&#10;
+        Telephone System,Optical Fibre : Telephone Systems, Principle of operations of Mobile phone, ISDN, Block Diagram of Optical Fibre Communication, Application of optical fibre communication.&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Books:&#10;"
+            android:textColor="#ff005c00"
+            android:textSize="19dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="1.Basic Electronics By D.P. Kothari."
+            android:textColor="#ff00000f"/>
+
+
+    </LinearLayout>
+</ScrollView>

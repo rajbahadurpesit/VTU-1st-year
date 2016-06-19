@@ -1,0 +1,157 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff">
+        <TextView android:text="Game Theory(10CS763/10IS763)" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="21dp"
+            android:textColor="#ff212185"
+            android:paddingLeft="50dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PART-A&#10;"
+            android:textSize="21dp"
+            android:layout_gravity="center"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-1: Introduction, Strategies Games:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is game theory? The theory of rational choice; Integrating decision makers. Strategic games; Examples; The prisoner's dilemma, Bach or Stravinsky, Matching pennies; Nash equilibrium; Examples of Nash equilibrium; Best-response functions; Dominated actions; Equilibrium in a single population: symmetric games and symmetric equilibria; .&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-2 : Mixed Strategy Equilibrium:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction; Strategic games in which players may randomize; Mixed strategy Nash equilibrium; Dominated actions; Pure equilibria when randomization is allowed, Illustration: Expert Diagnosis; Equilibrium in a single population, Illustration: Reporting a crime; The formation of players beliefs; Extensions; Representing preferences by expected payoffs.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-3: Extensive Games:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Extensive games with perfect information; Strategies and outcomes; Nash equilibrium; Subgame perfect equilibrium; Finding subgame perfect equilibria of finite horizon games: Background induction. Illustrations: The ultimatum game, Stackelberg's model of duopoly, Buying votes.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-4: Extensive games:Extensions and Discussions:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Extensions: Allowing for simultaneous moves, Illustrations:Entry in to a monopolized industry, Electoral competition with strategic voters, Committee decision making, Exit from a declining industry; Allowing for exogenous uncertainty, Discussion: subgame perfect equilibrium and backward induction.&#10;"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PART-B&#10;"
+            android:textSize="21dp"
+            android:textColor="#ff212185"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIT-5: Bayesian Games, Extension Games with Imperfect Information:"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Motivational examples; General definitions; Two examples concerning information; Illustrations: Cournot's duopoly game with imperfect information, Providing a public good, Auctions; Auctions with an arbitrary distribution of valuations&#10; Extensive games with imperfect information; Strategies; Nash equilibrium; Beliefs and sequential equilibrium; Signaling games; Illustration: Strategic information transmission.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIT-6: Strictly Competitive Games, Evolutionary Equilibrium:"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Strictly competitive games and maximization; Maximization and Nash equilibrium; Strictly competitive games; Maximization and Nash equilibrium in strictly competitive games.&#10;Evolutionary Equilibrium: Monomorphic pure strategy equilibrium; Mixed strategies and polymorphic equilibrium; Asymmetric contests; Variations on themes:Sibling behavior, Nesting behavior of wasps, The evolution of sex ratio.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIt-7: Iterated Games:"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Repeated games: The main idea; Preferences; Repeated games; Finitely and infinitely repeated Prisoner's dilemma; Strategies in an infinitely repeated Prisoner's dilemma; Some Nash equilibria of an infinitely repeated Prisoner's dilemma, Nash equilibrium payoffs of an infinitely repeated Prisoner's dilemma.&#10;"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIT-8: Coalitional Games and Bargaining:"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Coalitional games. The Core. Illustrations:Ownership and distribution of wealth, Exchanging homogeneous items, Exchanging heterogeneous items, Voting, Matching. Bargaining as an extensive game; Illustration of trade in a market; Nash's axiomatic model of bargaining.&#10;"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Books:"
+            android:textColor="#ff212185"
+            android:textSize="19dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="1.Martin Osborne: An Introduction to Game Theory, Oxford University Press, Indian Edition, 2004(Listed topic only from Chapters 1 to 11,,13,14,16)."
+            android:textColor="#ff00000f"/>
+
+
+    </LinearLayout>
+</ScrollView>

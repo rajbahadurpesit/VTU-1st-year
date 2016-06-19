@@ -1,0 +1,167 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="0dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:paddingLeft="5dp"
+        android:paddingRight="0dp">
+        <TextView android:text="Programming in C and Data Structure(14PCD13/14PCD23)&#10;" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="21dp"
+            android:textColor="#ff005c00"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-1:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Introduction To C Language:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pseudo code solution to problem, Basicconcepts in a C program, Declaration, Assignment and Print statements, Typesof operators and expressions etc, Programming examples and exercise.Text 1: Chapter 2.Text 2: 1.1, 1.2, 1.3 .&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-2:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Branching and Looping:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Two way selection (if, if-else, nested if-else,cascaded if-else), switch statement, ternary operator? Go to, Loops (For,while-do, do-while) in C, break and continue, Programming examples andexercises. Text 1: Chapter 3. Text 2: 4.4 .&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-3:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Functions, Arrays and Strings:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arrays and Strings : Using an array, Using arrays with Functions, Multi-Dimensional arrays. String: Declaring, Initializing, Printing and reading strings,string manipulation functions, String input and output functions, array of strings, Programming examples and Exercises.Text 1: 5.7, Text 2: 7.3, 7.4.&#10;&#10; chapter 9 Functions : Functions in C, Argument Passing – call by value, call by reference, Functions and program structure, location of functions, void and parameter less Functions, Recursion, Programming examples and exercises.Text 1: 1.7, 1.8, Chapter 4. Text 2: 5.1 to 5.4 .&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-4:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Structures and File Management:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="Basic of structures, structures and Functions, Array of structures, structure Data types, type definition, Defining,opening and closing of files, Input and output operations, Programming examples and exercises.Text 1: 6.1 to 6.3. Text 2: 10.1 to 10.4, Chapter 11 .&#10;"
+            android:textColor="#ff1c1c1c"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-5:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="&#10;Pointers and Preprocessors:&#10;"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pointers and address, pointers and functions(call by reference) arguments, pointers and arrays, address arithmetic,character pointer and functions, pointers to pointer ,Initialization of pointer arrays, Dynamic memory allocations methods, Introduction to Preprocessors,compiler control Directives, Programming examples and exercises.Text 1: 5.1 to 5.6, 5.8. Text 2: 12.2, 12.3, 13.1 to 13.7.&#10;&#10;Introduction to Data Structures : Primitive and non primitive data types,Abstract data types, Definition and applications of Stacks, Queues, LinkedLists and Trees.Text 2: 14.1, 14.2, 14.11, 14.12, 14.13, 14.15, 14.16, 14.17, 15.1 .&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Books:&#10;"
+            android:textColor="#ff005c00"
+            android:textSize="19dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="1.Computer Concepts and C Programming By Vikas Gupta."
+            android:textColor="#ff00000f"/>
+
+
+    </LinearLayout>
+</ScrollView>

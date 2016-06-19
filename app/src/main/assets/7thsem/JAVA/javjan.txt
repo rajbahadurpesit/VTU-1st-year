@@ -1,0 +1,43 @@
+        JAVA and J2EE(JAN-2014)
+
+                PART-A
+
+1(a).Explain how JAVA is robust and architecture neutral.(08 Marks)
+
+(b).Write a note on JAVA environment.(06 Marks)
+
+(c).Discuss three OOP pinciples.(06 Marks)
+
+2(a).Distinguish between method overloading and overriding in JAVA,with suitable examples.(06 Marks)
+
+(b).What is super? Explain the use of super with suitable example.(06 Marks)
+
+(c).Write a JAVA program to impplement stack operations.(08 Marks)
+
+3(a).What is thread? Explain two wave of creating a thread in JAVA with example.(10 Marks)
+
+(b).What is the need of synchronzation? Explain with an example how synchronization is implemented in JAVA.(10 Marks)
+
+4(a).Name and explain the different types of swing buttons with syntax.(10 Marks)
+
+(b).Write the steps to create Table.Write a program to create a table with column heading "fname,lname,age" and Insert atleast 5 records in the table and display.(10 Marks)
+
+5(a).Give an example and explain J2EE multitier architecture.(06 Marks)
+
+(b).Explain the different types of statement object.Give example for each.(06 Marks)
+
+(c).Write a program to execute a database transaction.(08 Marks)
+
+6(a).Explain the life cycle of servlets.(05 Marks)
+
+(b).List and explain core classes and interfaces that are provided in jacax.servlet package.(10 Marks)
+
+(c).Write a short note on HTTP request and response.(05 Marks)
+
+7(a).What is JSP tag? Explain the different types of JSP tags.(10 Marks)
+
+(b).What is a cookie? Explain the working of cookie in JAVA with code snippets.(10 Marks)
+
+8(a).Explain the functions of EJB transaction attributes. Write a program to set the transaction attribute.(10 Marks)
+
+(b).What is entity JAVA bean? Explain the CMP entity bean. Give the skeleton of an entity bean.(10 Marks)

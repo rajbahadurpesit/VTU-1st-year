@@ -1,0 +1,157 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="simple.raj.com.testforstring.SE"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff">
+        <TextView android:text="LOGIC DESIGN(10CS33)" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="21dp"
+            android:textColor="#ff212185"
+            android:paddingLeft="50dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PART-A&#10;"
+            android:textSize="21dp"
+            android:layout_gravity="center"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-1: Digital Principles, Digital Logic:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Definitions for Digital Signals, Digital Waveforms, Digital Logic, 7400 TTL Series, TTL Parameters The Basic Gates: NOT, OR, AND, Universal Logic Gates: NOR, NAND, Positive and Negative Logic, Introduction to HDL.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-2 : Combinational Logic Circuits:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sum-of-Products Method, Truth Table to Karnaugh Map, Pairs Quads, and Octets, Karnaugh Simplifications, Don’t-care Conditions, Product-of-sums Method, Product-of-sums simplifications, Simplification by Quine-McClusky Method, Hazards and Hazard Covers, HDL Implementation Models .&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-3: Data-Processing Circuits:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Multiplexers, Demultiplexers, 1-of-16 Decoder, Encoders, Exclusive-or Gates, Parity Generators and Checkers, Magnitude Comparator, Programmable Array Logic, Programmable Logic Arrays, HDL Implementation of Data Processing Circuits. &#10; "
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-4: Clocks, Flip-Flops:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text=" Clock Waveforms, TTL Clock, Schmitt Trigger, Clocked D FLIP-FLOP, Edge-triggered D FLIP-FLOP, Edge-triggered JK FLIP-FLOP, FLIP-FLOP Timing, JK Master-slave FLIP-FLOP, Switch Contact Bounce Circuits, Various Representation of FLIP-FLOPs, Analysis of Sequential Circuits, HDL Implementation of FLIP-FLOP.&#10;"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PART-B&#10;"
+            android:textSize="21dp"
+            android:textColor="#ff212185"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIT-5: Registers: "
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Types of Registers, Serial In - Serial Out, Serial In - Parallel out, Parallel In - Serial Out, Parallel In - Parallel Out, Universal Shift Register, Applications of Shift Registers, Register Implementation in HDL.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIT-6: Counters:"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Asynchronous Counters, Decoding Gates, Synchronous Counters, Changing the Counter Modulus, Decade Counters, Presettable Counters, Counter Design as a Synthesis problem, A Digital Clock, Counter Design using HDL.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIT-7:Design of Synchronous and Asynchronous Sequential Circuits:"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="  Design of Synchronous Sequential Circuit: Model Selection, State Transition Diagram, State Synthesis Table, Design Equations and Circuit Diagram, Implementation using Read Only Memory, Algorithmic State Machine, State Reduction Technique. Asynchronous Sequential Circuit: Analysis of Asynchronous Sequential Circuit, Problems with Asynchronous Sequential Circuits, Design of Asynchronous Sequential Circuit, FSM Implementation in HDL.&#10;"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIT-8:D/A Conversion and A/D Conversion:"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="  Variable, Resistor Networks, Binary Ladders, D/A Converters, D/A Accuracy and Resolution, A/D Converter-Simultaneous Conversion, A/D Converter-Counter Method, Continuous A/D Conversion, A/D Techniques, Dual-slope A/D Conversion, A/D Accuracy and Resolution.&#10;"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Books:"
+            android:textColor="#ff212185"
+            android:textSize="19dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="1. Donald P Leach, Albert Paul Malvino and Goutam Saha: Digital Principles and Applications, 7 th Edition, Tata McGraw Hill, 2010.."
+            android:textColor="#ff00000f"/>
+
+
+    </LinearLayout>
+</ScrollView>

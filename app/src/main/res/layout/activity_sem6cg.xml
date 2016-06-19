@@ -1,0 +1,226 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="0dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:paddingLeft="5dp"
+        android:paddingRight="0dp">
+        <TextView android:text="COMPUTER GRAPHICS AND VISUALISATION" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="21dp"
+            android:textColor="#ff005c00"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+        <TextView android:text="Subject Code: 10CS65/10IS665&#10;" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="20dp"
+            android:textColor="#ff005c00"
+            android:paddingLeft="50dp"
+            android:paddingRight="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;PART-A:"
+            android:textSize="22dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;&#10;UNIT-I: Introduction:"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Applications of   computer   graphics;    A   graphics   system;    Images:  Physical  and  synthetic;    Imaging   Systems;   The   synthetic   camera   model;   The    programmer’s   interface;    Graphics   architectures;   Programmable   Pipelines;    Performance    Characteristics   Graphics   Programming:   The   Sierpinski   gasket;    Programming   Two   Dimensional   Applications. [7 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-II : The OpenGL:"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; The OpenGL API;    Primitives   and   attributes;   Color;    Viewing;    Control functions;    The   Gasket program;    Polygons   and   recursion;   The three   dimensional   gasket;   Plotting   Implicit  Functions. [6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-III: Input and Interaction:"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Interaction;  Input  devices;    Clients  and  Servers;   Display  Lists;   Display   Lists  and  Modeling;     Programming   Event   Driven    Input;    Menus;   Picking;    A  simple  CAD  program;     Building  Interactive  Models;    Animating   Interactive   Programs;    Design   of   Interactive   Programs;   Logic Operations. [7 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-IV: Geometric Objects and Transformations-I:"
+            android:textSize="19dp"
+            android:textColor="#ff212185"
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="&#10; Scalars,    Points,    and  Vectors;     Three-dimensional   Primitives;    Coordinate   Systems   and   Frames;    Modeling  a  Colored  Cube;   Affine  Transformations;   Rotation,   Translation  and  Scaling. [6 Hours]&#10;"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;PART-B:"
+            android:textSize="22dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="&#10;&#10;UNIT-V: Geometric Objects and Transformations-II:"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Geometric Objects and Transformations;     Transformation    in     Homogeneous    Coordinates;     Concatenation of    Transformations;    OpenGL   Transformation   Matrices;    Interfaces to three   dimensional   applications;   Quaternion’s. [5 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="UNIT-VI: Viewing :"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Classical  and  computer  viewing;    Viewing  with a  Computer;     Positioning   of   the   camera;     Simple   projections;      Projections  in  OpenGL;     Hidden  surface removal;    Interactive    Mesh   Displays;    Parallel-projection   matrices;    Perspective-projection   matrices;    Projections  and  Shadows. [7 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="UNIT-VII: Lighting and Shading:"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Light   and   Matter;    Light   Sources; The Phong Lighting model;    Computation  of  vectors;     Polygonal   Shading;     Approximation of a   sphere  by   recursive   subdivisions;    Light   sources   in   OpenGL;    Specification   of   materials   in   OpenGL;    Shading   of   the   sphere  model;    Global Illumination. [6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="UNIT-VIII: Implementation:"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Basic  Implementation   Strategies;   Four  major  tasks;   Clipping;   Line-segment   clipping;   Polygon   clipping;    Clipping   of   other   primitives;   Clipping in   three   dimensions;    Rasterization;      Bresenham’s    algorithm;    Polygon    Rasterization;       Hidden-surface  removal;     Antialiasing;    Display considerations. [8 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Text Books:&#10;"
+            android:textColor="#ff005c00"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="1. Edward Angel: Interactive Computer Graphics A Top-Down Approach with OpenGL, 5th Edition, Pearson Education, 2008. (Chapters 1 to 7)."
+            android:textColor="#ff00000f"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Reference Books:&#10;"
+            android:textColor="#ff005c00"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="1. Donald Hearn and Pauline Baker: Computer Graphics- OpenGL Version, 3rd Edition, Pearson Education, 2004.
+&#10;&#10;2. F.S. Hill Jr.: Computer Graphics Using OpenGL, 3rd Edition, PHI, 2009.
+&#10;&#10;3. James D Foley, Andries Van Dam, Steven K Feiner, John F Hughes, Computer Graphics, Pearson Education 1997.&#10;"
+            android:textColor="#ff00000f"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

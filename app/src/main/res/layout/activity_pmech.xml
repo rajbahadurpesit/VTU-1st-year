@@ -1,0 +1,170 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="0dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:paddingLeft="5dp"
+        android:paddingRight="0dp">
+        <TextView android:text="Elements of Mechanical Engineering :(14EME14/14EME24)&#10;" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="21dp"
+            android:textColor="#ff005c00"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-1:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Energy Resources:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Non-renewable and renewable energy resources,  Petroleum  based  solid,  liquid  and  gaseous  fuels, Calorific   values of fuels,   Combustion  and  combustion products of fuels,  &#10;&#10;SOLAR POWER : Solar Radiation,   Solar constant (definition only),   Solar Thermal energy harvesting,   ex: liquid flat plate collectors, solar ponds (principle of operation only), Solar photovoltaic principle. &#10;&#10;  WIND POWER :  principle of operation of a  typical windmill. &#10;&#10;: HYDRO POWER : Principles of electric power generation from  hydro power plants,&#10;  NUCLEAR POWER : Principles of Nuclear power plants,Bio Fuels : introduction to bio fuels, examples of various bio fuels used in engineering applications, Comparison of bio fuels with petroleum fuels interms of calorific value and emission.&#10;&#10; Steam Formation and Properties : Classification of boilers, Lancashire  boiler,  Babcock  and  Wilcox boiler,   boiler  mountings  and  accessories (No sketches for mountings and accessories),   wet steam,   saturated and superheated steam,   specific volume,   enthalpy and internal energy. (No numerical problems in this module).&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-2:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Turbines and IC Engines and Pumps Steam turbines:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Classification,  Principle of operation of Impulse  and  reaction turbines,   Delaval’s turbine, Parson’s turbine. (No compounding of turbines).&#10;&#10;Gas turbines : Classification,   Working  principles and Operations of Opencycle and closed cycle gas turbines.  &#10;&#10; Water turbines : Classification, Principles and operations of Pelton wheel,Francis turbine and Kaplan turbine.&#10;&#10; Internal Combustion Engines : Classification, I.C. Engines parts,  2 Stroke and 4 stroke Petrol engines, 4 stroke diesel engines.   P-V diagrams of Otto and Diesel cycles. Problems on indicated power, brake power,  indicated thermal efficiency, brake thermal efficiency,  mechanical efficiency,  and specific fuel consumption, [numericals on IC Engines].&#10;"
+
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-3:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Machine Tools and Automation,  Machine Tools Operations:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Turning, facing, knurling, Thread cutting, Taper Turning by swivelling the compound rest,  Drilling, Boring,  Reaming,  Tapping,  Counter Sinking,  Counter Boring,  -Plane milling,   End milling,  Slot milling. (No sketches of Machine tools, sketches to be used only for explaining operations. Students to be shown the available machine tools in the Machine Shop of the college before explaining the operations)&#10;&#10;Robotics and Automation :Robotics : Introduction, classification based on robots configuration; Polar,cylindrical, Cartesian Coordinate and spherical. Application, Advantages, and disadvantages.  &#10;&#10;AUTOMATION :  Definition, types –Fixed,  Programmable  and  Flexible automation,  NC/ CNC machines: Basic elements with simple block diagrams,  advantages and disadvantages.&#10;"
+
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-4:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Engineering materials and joining processes:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="Types and applications  of Ferrous  and  Nonferrous metals and   alloys,   Composites : Introduction: Definition,   Classification and applications  (Aircraft and Automobiles)  Soldering,     Brazing and Welding : Definitions, classification   and   method  of   soldering, Brazing  and  welding.    Differences between soldering,   Brazing and Welding. Description    of   ElectricArc   Welding  and  Oxy-Acetylene    Welding.&#10;"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-5:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="&#10;Refrigeration, Air-Conditioning:&#10;"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refrigerants : properties of refrigerants, list of commonly used refrigerants.    Refrigeration –Definitions –  Refrigerating effect,   Ton of Refrigeration,   Ice making capacity,  COP  ,   Relative COP,   unit of Refrigeration. Principle   and   working of vapor compression  refrigeration  and  vapour absorption  refrigeration:   Principles  and  applications of air conditioners,    Room air conditioner.&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Books:&#10;"
+            android:textColor="#ff005c00"
+            android:textSize="19dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="1.Elements of Mechanical Engineering By V.k. Manglik."
+            android:textColor="#ff00000f"/>
+
+
+    </LinearLayout>
+</ScrollView>

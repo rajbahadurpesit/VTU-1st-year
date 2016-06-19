@@ -1,0 +1,41 @@
+6a.html
+
+<html>
+<head>
+<title>Random Greetings</title></head>
+<body>
+<form action="http://localhost/cgi-bin/6a.pl">
+Enter name : <input type="text" name="txtName"><input type="submit"
+value="Go">
+</form>
+</body>
+</html>
+
+6a.pl
+
+#!/usr/bin/perl
+use CGI ':standard';
+print header();
+print start_html();
+$name=param("txtName");
+@arr=("hello","hi","heyy","welcome");
+print "<h2> $arr[rand(4)] $name </h2>";
+print end_html();
+
+6b.pl
+
+#!/usr/bin/perl
+use CGI ':standard';
+print header();
+print start_html();
+
+open(IN,'<visitor.txt');
+$cnt = <IN>;
+close(IN);
+$cnt++;
+
+open(OUT,'>visitor.txt');
+print OUT $cnt;
+close(OUT);
+print "You are visitor number : $cnt";
+print end_html();

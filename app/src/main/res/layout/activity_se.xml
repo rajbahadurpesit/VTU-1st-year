@@ -1,0 +1,165 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="simple.raj.com.testforstring.SE"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff">
+    <TextView android:text="Software Engineering(10IS51)" android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="21dp"
+        android:textColor="#ff212185"
+        android:paddingLeft="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PART-A&#10;"
+        android:textSize="21dp"
+        android:layout_gravity="center"
+        android:textColor="#ff212185"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT-1: Overview:"
+        android:textSize="20dp"
+        android:textColor="#ff212185"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduction: FAQ's about software engineering, Professional and ethical responsibility.
+        &#10;Socio-Technical systems: Emergent system properties; Systems engineering; Organisation,people and computer systems; Legacy systems.&#10;"
+        android:textSize="18dp"
+        android:textColor="#ff00000f" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT-2 : Critical Systems, Software Processes:"
+        android:textSize="20dp"
+        android:textColor="#ff212185"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Critical Systems: A simple safety-critical systems; System dependability; Availability and reliability.
+        Software Processes: Models, Process iteration, Process activities; The Rational Unified Process; Computer Aided Software Engineering.&#10;"
+        android:textSize="18dp"
+        android:textColor="#ff00000f"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT-3: Requirements:"
+        android:textSize="20dp"
+        android:textColor="#ff212185"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Software Requirements: Fundamental and Non-functional requirements; User requirements; System requirements; Interface specification; The software requirement document.
+       Requirement Engineering Process: Feasibility studies; Requirements elicitation and analysis; Requirement validation; Requirements management. &#10; "
+       android:textSize="18dp"
+       android:textColor="#ff00000f"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT-4: System Models, Project Management:"
+        android:textSize="20dp"
+        android:textColor="#ff212185"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="System Models: Context models; Behavioral models; Data models; Object models; Structured methods.
+        Project Management: Management activities; Project scheduling; Risk management.&#10;"
+        android:textColor="#ff00000f"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="PART-B&#10;"
+       android:textSize="21dp"
+       android:textColor="#ff212185"
+       android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="UNIT-5: Software Design"
+        android:textColor="#ff212185"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Architectural Design: Architectural design decisions; System organization; Modular  decomposition styles; Control styles.
+        Object-Oriented design: Object and Object Classes; An Object-Oriented design process; Design evolution.&#10;"
+        android:textSize="18dp"
+        android:textColor="#ff00000f"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="UNIT-6: Development:"
+        android:textColor="#ff212185"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rapid Software Development: Agile methods; Extreme programming; Rapid application development.
+        Software Evolution: Program evolution dynamics; Software maintenance; Evolution processes; Legacy system evolution.&#10;"
+        android:textSize="18dp"
+        android:textColor="#ff00000f"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="UNIT-7: Verification and Validation:"
+        android:textColor="#ff212185"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Verification and Validation: Planning; Software inspections: Automated static analysis; Verification and formal methods.
+        Software testing: System testing; Component testing; Test case design; Test automation.&#10;"
+        android:textColor="#ff00000f"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="20dp"
+       android:text="UNIT-8: Management:"
+       android:textColor="#ff212185"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Managing People: Selecting staff; Motivating people; Managing people; The People Capability Maturity Model.
+        Software Cost Estimation: Productivity; Estimation techniques; Algorithm cost modeling, Project duration and staffing.&#10;"
+        android:textColor="#ff00000f"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text Books:"
+        android:textColor="#ff212185"
+        android:textSize="19dp"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="17dp"
+       android:text="Ian Sommerville: Software Engineering, 8th Edition,Pearson Education,2007."
+       android:textColor="#ff00000f"/>
+
+
+</LinearLayout>
+</ScrollView>

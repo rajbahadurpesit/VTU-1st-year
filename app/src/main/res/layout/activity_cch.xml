@@ -1,0 +1,174 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="0dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:paddingLeft="5dp"
+        android:paddingRight="0dp">
+        <TextView android:text="Engineering Chemistry :(14CHE12/14CHE22)&#10;" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="21dp"
+            android:textColor="#ff005c00"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-1:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Electrochemistry and Battery Technology:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electrochemistry: Introduction, Derivation of Nernst equation for electrodepotential. Types of electrodes: metal-metal ion, metal-metal salt ion, gas,amalgam, redox and ion selective. Reference electrodes: Introduction;construction, working and applications of calomel and Ag / AgCl electrodes.Measurement of standard electrode potential using calomel electrode.Construction and working of glass electrode, determination of pH using glasselectrode. Concentration cells: Electrode and Electrolyte, numerical problemson electrolyte concentration cells.&#10;&#10;
+            BTTERY TECHNOLOGY : Introduction, classification - primary, secondary andreserve batteries. Characteristics - cell potential, current, capacity, electricitystorage density, energy efficiency, cycle life and shelf life. Construction,working and applications of Zinc-Air, Nickel- metal hydride batteries. Lithiumbatteries: Introduction, Li-MnO2 and Li-ion batteries.Fuel Cells: Introduction, difference between conventional cell and fuel cell,limitations and advantages. Classification of fuel cells based on temperature,fuel and electrolyte; construction and working of methanol-oxygen fuel cellwith H2SO4 electrolyte.&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-2:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Corrosion and Metal Finishing:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Corrosion : Introduction, electrochemical theory of corrosion, galvanic series. Factors affecting the rate of corrosion: ratio of anodic to cathodic areas,polarization of anodic and cathodic regions, nature of metal, nature ofcorrosion product, nature of medium – pH, conductivity, and temperature.Types of corrosion- Differential metal , differential aeration(Pitting andwater line) and stress (caustic embrittlement in boilers).Corrosion control:Design and selection of materials, inorganic coatings-Anodizing of Al andphosphating, metal coatings-Galvanization and Tinning. Cathodic protection(sacrificial anodic and impressed current methods).&#10;&#10;
+            METAL FINISHING: Introduction, Technological importance. Electroplating:Introduction, principles governing-Polarization, decomposition potential andovervoltage. Factors influencing the nature of electro deposit-current density,concentration of metal salt, metal ion and electrolyte; pH, temperature and throwing power of plating bath, additives-complexing agents, brighteners,levellers, structure modifiers and wetting agents. Electroplating of chromiumand gold (acidic cyanide bath). Electro less plating: Introduction, distinctionbetween electroplating and electro less plating, electro less plating of copper and manufacture of double sided Printed Circuit Board with copper.&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-3:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Fuels and Solar Energy:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fuels: Introduction, classification, calorific value- gross and net calorificvalues, determination of calorific value of fuel using bomb calorimeter,numerical problems. Cracking: Introduction, fluidized catalytic cracking,synthesis of petrol by Fishcher-Tropsch process, reformation of petrol,octane and cetane numbers. Gasoline and diesel knocking and theirmechanism, anti knocking agents, unleaded petrol, power alcohol, biodiesel and biogas.&#10;&#10;
+            SOLAR ENERGY: Introduction, utilization and conversion, photovoltaic cellsimportance,construction and working. Design: modules, panels and arrays.Advantages and disadvantages of PV cells. Silicon-physical and chemicalproperties relevant to photovoltaics, production of solar grade silicon(unioncarbide process), doping of silicon-diffusion technique (n and p types) andpurification of silicon(zone refining).&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-4:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Polymers:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="Introduction, types of polymerization: addition and condensation, mechanismof polymerization- free radical mechanism taking vinyl chloride as an example.Molecular weight of polymers: number average and weight average, numerical problems. Glass transition temperature (Tg): Factors influencingTg-Flexibility, inter molecular forces, molecular mass, branching and crosslinking, and stereo regularity. Significance of Tg. Structure propertyrelationship: crystallinity, tensile strength, elasticity, plastic deformation and chemical resistivity. Synthesis, properties and applications of PMMA (plexiglass), Teflon, Polyurethane and polycarbonate.  &#10;&#10;ELASTOMERS: Introduction,synthesis, properties and applications of Silicone rubber. Adhesives:Introduction, synthesis, properties and applications of epoxy resin. PolymerComposites: Introduction, synthesis, properties and applications of kevlarand carbon fiber. Conducting polymers: Introduction, mechanism ofconduction in Polyaniline and applications of conducting polyaniline.&#10;"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-5:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="&#10;Water Technology and Nanomaterials:&#10;"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Water Technology: Introduction, sources and impurities of water; boiler feedwater, boiler troubles with disadvantages -scale and sludge formation, primingand foaming, boiler corrosion(due to dissolved O2, CO2 and MgCl2).Determination of DO, BOD and COD, numerical problems. Sewage treatment:Primary, secondary (activated sludge method) and tertiary methods. Softeningof water by ion exchange process. Desalination of sea water by reverseosmosis and electrodialysis (ion selective).&#10;&#10;
+            NANO MATERIALS : Introduction, properties (size dependent). Synthesis-bottomup approach (sol-gel, precipitation, gas condensation, chemical vapourcondensation, hydro thermal and thermolysis processes). Nano scale materialsnanocrystals and clusters, nano crystalline, fullerenes, carbon nano tubes,nano wires, nano rods, dendrimers and nano composites.&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Books:&#10;"
+            android:textColor="#ff005c00"
+            android:textSize="19dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="1.Chemistry for Engineering Students By B.S. Jai Prakash."
+            android:textColor="#ff00000f"/>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,157 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="simple.raj.com.testforstring.SE"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff">
+        <TextView android:text="Engineeering Mathematics-III(10MAT31)" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="21dp"
+            android:textColor="#ff212185"
+            android:paddingLeft="50dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PART-A&#10;"
+            android:textSize="21dp"
+            android:layout_gravity="center"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-1: FOURIER SERIES:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convergence and divergence of infinite series of positive terms, definition and illustrative examples* Periodic functions, Dirichlet’s conditions, Fourier series of periodic functions of period 2pi and arbitrary period, half range Fourier series. Complex form of Fourier Series. Practical harmonic analysis..&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-2 : FOURIER TRANSFORMS:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Infinite Fourier transform, Fourier Sine and Cosine transforms, properties, Inverse transforms.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-3: APPLICATIONS OF PDE:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Various possible solutions of one dimensional wave and heat equations, two dimensional Laplace’s equation by the method of separation of variables, Solution of all these equations with specified boundary conditions. D’Alembert’s solution of one dimensional wave equation. &#10; "
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-4: CURVE FITTING AND OPTIMIZATION:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Curve fitting by the method of least squares- Fitting of curves of the form y = ax + b , y = a x^2 + b x + c , y = ae^(bx) , y = ax^b  Optimization: Linear programming, mathematical formulation of linear programming problem (LPP), Graphical method and simplex method.&#10;"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PART-B&#10;"
+            android:textSize="21dp"
+            android:textColor="#ff212185"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIT-5: NUMERICAL METHODS - 1:"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numerical Solution of algebraic and transcendental equations: Regula-falsi method, Newton - Raphson method. Iterative methods of solution of a system of equations: Gauss-seidel and Relaxation methods. Largest eigen value and the corresponding eigen vector by Rayleigh’s power method.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIT-6: NUMERICAL METHODS -2:"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Finite differences: Forward and backward differences, Newton’s forward and backward interpolation formulae. Divided differences - Newton’s divided difference formula, Lagrange’s interpolation formula and inverse interpolation formula. Numerical integration: Simpson’s one-third, three-eighth and Weddle’s rules (All formulae/rules without proof).&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIT-7:NUMERICAL METHODS -3 :"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Numerical solutions of PDE – finite difference approximation to derivatives, Numerical solution of two dimensional Laplace’s equation, one dimensional heat and wave equations.&#10;"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIT-8: DIFFERENCE TRANSFORMS EQUATIONS AND Z-Difference equations:"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text=" Basic definition; Z-transforms-definition, standard Z-transforms, damping rule, shifting rule, initial value and final value theorems. Inverse Z-transform. Application of Z-transforms to solve difference equations..&#10;"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Books:"
+            android:textColor="#ff212185"
+            android:textSize="19dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="1. B.S. Grewal, Higher Engineering Mathematics, Latest edition, Khanna Publishers.&#10;2. Erwin Kreyszig, Advanced Engineering Mathematics, Latest edition, Wiley Publications.."
+            android:textColor="#ff00000f"/>
+
+
+    </LinearLayout>
+</ScrollView>

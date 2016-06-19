@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+       <item name="colorPrimary">@color/ColorPrimary</item>
+     <!--   <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>  -->
+        <item name="logo">@mipmap/ic_launcher</item>
+        <item name="android:displayOptions">useLogo|showHome</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarDivider">@null</item>
+
+
+    </style>
+
+</resources>

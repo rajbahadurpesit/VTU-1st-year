@@ -1,0 +1,142 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="0dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:paddingLeft="5dp"
+        android:paddingRight="0dp">
+        <TextView android:text="T&#10;" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="21dp"
+            android:textColor="#ff005c00"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-1:&#10;"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-1: Fundamentals of Web,XHTML-1:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=".&#10;"
+            android:textSize="16dp"
+            android:textColor="#ff1c1c1c" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-2:&#10;"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-2 : XHTML-2,CSS:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=".&#10;"
+            android:textSize="16dp"
+            android:textColor="#ff1c1c1c"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-3:&#10;"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-3: Javascript:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=".&#10;"
+            android:textSize="16dp"
+            android:textColor="#ff1c1c1c"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-4:&#10;"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-4: Javascript and HTML Documents, Dynamic Document with Javascript:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text=".&#10;"
+            android:textColor="#ff1c1c1c"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-5:&#10;"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="UNIT-5: XML:&#10;"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=".&#10;"
+            android:textSize="16dp"
+            android:textColor="#ff1c1c1c"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Books:&#10;"
+            android:textColor="#ff005c00"
+            android:textSize="19dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="1.Robert W.Sebesta:Programming the World Wide Web, 4th Edition, Pearson education, 2008.Listed topics from Chapters 1 to 9, 11 to 15)."
+            android:textColor="#ff00000f"/>
+
+
+    </LinearLayout>
+</ScrollView>

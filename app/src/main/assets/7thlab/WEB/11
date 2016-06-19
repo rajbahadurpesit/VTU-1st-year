@@ -1,0 +1,78 @@
+11.html
+
+<html>
+
+<body>
+<form action="http://localhost/addData.php" method="post">
+<lable>Name: </lable><input type="text" name="name" /><br/>
+<lable>Address1:</lable> <input type="text" name="address1" /><br/>
+<lable>Address2:</lable> <input type="text" name="address2" /><br/>
+<lable>Email:</lable> <input type="email" name="email" /><br/>
+<input type="submit" />
+</form>
+</body>
+</html>
+addData.php
+<html>
+<body>
+
+<?php
+$con = mysql_connect("localhost","root","root123");
+if (!$con)
+{
+die('Could not connect: ' . mysql_error());
+}
+mysql_select_db("contact");
+$sql="INSERT INTO details VALUES
+('$_POST[name]','$_POST[address1]','$_POST[address2]','$_POST[email]')";
+if (!mysql_query($sql,$con))
+{
+die('Error: ' . mysql_error());
+}
+echo "1 record added";
+mysql_close($con)
+?><form action="http://localhost/select.php" method="post">
+Name: <input type="text" name="name" />
+<input type="submit" />
+</form>
+</body>
+</html>
+select.php
+<html>
+<body>
+
+<?php
+$con = mysql_connect("localhost","root","root123");
+if (!$con)
+{
+die('Could not connect: ' . mysql_error());
+}
+mysql_select_db("contact");
+$result = mysql_query("SELECT * FROM details where name= '$_POST[name]'");
+if(!$result)
+{
+echo "There is no records";
+}
+echo "<table border='1'>
+<tr>
+<th>Name</th>
+<th>Addresss1</th>
+<th>Addresss2</th>
+<th>Email</th>
+</tr>";
+
+while($row = mysql_fetch_array($result))
+{
+echo "<tr>";
+echo "<td>" . $row['name'] . "</td>";
+echo "<td>" . $row['add1'] . "</td>";
+echo "<td>" . $row['add2'] . "</td>";
+echo "<td>" . $row['email'] . "</td>";
+echo "</tr>";
+}
+
+echo "</table>";
+mysql_close($con);
+?>
+</body>
+</html>

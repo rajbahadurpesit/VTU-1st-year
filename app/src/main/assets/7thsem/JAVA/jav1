@@ -1,0 +1,56 @@
+        JAVA and J2EE(JUNE-2014)
+
+            PART-A
+
+1(a).How compile once and run anywhere' is implemented in java, explain.(04 Marks)
+
+(b).List and explain the Java buzzwords.(06 Marks)
+
+(c).Explain: (i)>>> (ii)short circuit logical operators (iii)for each.(06 Marks)
+
+(d).Describe the process of building and running Java program.(04 Marks)
+
+2(a).Describe the process of building and running java program.(06 Marks)
+
+(b).What is an expression? Explain the different exception handling mechanisms.(08 Marks)
+
+(c).Write an applet program to display the message "VTU BELGAUM". Set the background color to cyan and foreground color to red.(06 Marks)
+
+3(a).What is synchronization? Explain with an example,how synchronization is implemented in Java.(06 Marks)
+
+(b).What is producer-consumer problem? Explain the solution for producer-consumer problem with a program.(08 Marks)
+
+(c).What is delegation event model? Describe the significance of adapter class, with an example.(06 Marks)
+
+4(a).What is swing? List the main swing features. Explain the different types of panes of swing containers.(06 Marks)
+
+(b).Create a swing application having two buttons named alpha and beta. When either of the buttons pressed, it should display "alpha pressed" and "beta pressed" respectively.(06 Marks)
+
+(c).List the different types of swing buttons. Write a program to create four types of buttons on JApplet. Use suitable evnts to show actions on the buttons and use JLabel to display the action invoked.(08 Marks)
+
+            PART-B
+
+5(a).Explain the four types of JDBC drivers.(06 Marks)
+
+(b).Describe the various steps of JDBC with code snippets.(08 Marks)
+
+(c).Explain: (i)callable statement  (ii)prepared statement.(06 Marks)
+
+6(a).Explain the different stages in the life cycle of a servlet.
+
+(b).What is a cookie? List out the methods defined by cookie. Write a program to add a cookie.(08 Marks)
+
+(c)Write a program to describe parameter reading using servlets.(06 Marks)
+
+7(a).Define JSP. Explain the different types of JSP tags by taking suitable examples.(10 Marks)
+
+(b).What is RMI? Describe with code snippet RMI at server side.(10 Marks)
+
+8(a).What is deployment descriptor? List the deployment descriptor for EJB1-1.(06 Marks)
+
+(b).With a skeleton, explain entity java bean.(06 Marks)
+
+(c).Explain: (i)JAR file  (ii)Stateless bean versus stateful bean.(08 Marks)
+
+
+

@@ -1,0 +1,238 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="0dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:paddingLeft="5dp"
+        android:paddingRight="0dp">
+        <TextView android:text="MICROPROCESSORS" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="21dp"
+            android:textColor="#ff005c00"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:gravity="center"/>
+        <TextView android:text="Subject Code: 10CS45 &#10;" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="20dp"
+            android:textColor="#ff005c00"
+            android:paddingLeft="50dp"
+            android:paddingRight="20dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;PART-A:"
+            android:textSize="22dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;&#10;UNIT-I: Introduction, Microprocessor Architecture – 1:"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; A Historical Background,  The Microprocessor-Based  Personal Computer
+Systems.  The  Microprocessor and  its  Architecture:  Internal Microprocessor Architecture,  Real  Mode  Memory  Addressing. [7 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-II : Microprocessor Architecture-2, Addressing Modes:"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Introduction to
+Protected Mode Memory Addressing, Memory Paging, Flat Mode Memory Addressing Modes: Data Addressing Modes, Program
+Memory Addressing Modes, Stack Memory Addressing Modes. [7 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-III: Programming – 1:"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Data Movement Instructions: MOV Revisited,  PUSH/POP,  Load-Effective Address,  String  Data  Transfers,
+ Miscellaneous  Data  Transfer  Instructions,  Segment  Override  Prefix,  Assembler Details.&#10;
+Arithmetic and Logic Instructions: Addition, Subtraction  and  Comparison,  Multiplication  and  Division. [6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-IV: Programming – 2: Arithmetic and Logic Instructions (continued):"
+            android:textSize="19dp"
+            android:textColor="#ff212185"
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="&#10; BCD and ASCII Arithmetic, Basic Logic Instructions,   Shift  and  Rotate,   String  Comparisons.   Program  Control  Instructions:  The  Jump  Group,    Controlling  the   Flow  of  the  Program,  Procedures  and   Introduction to Interrupts  Machine  Control and   Miscellaneous  Instructions. [6 Hours]&#10;"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;PART-B:"
+            android:textSize="22dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="&#10;&#10;UNIT-V: Programming – 3:"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Combining Assembly Language with C/C++:  Using  Assembly  Language  with   C/C++  for  16-Bit  DOS  Applications
+and 32-Bit  Applications  Modular  Programming,   Using  the Keyboard   and   Video Display,   Data  Conversions,  Example  Programs. [6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="UNIT-VI: Hardware Specifications, Memory Interface – 1: "
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Pin-Outs and  the Pin  Functions,   Clock Generator,   Bus  Buffering  and  Latching,   Bus   Timings,   Ready  and  Wait State,   Minimum  versus  Maximum  Mode.   Memory  Interfacing:  Memory  Devices. [7 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="UNIT-VII: Memory Interface – 2, I/O Interface – 1:"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Memory Interfacing (continued):  Address Decoding,  8088  Memory  Interface,  8086
+Memory Interface.  Basic I/O Interface: Introduction   to  I/O Interface,   I/O Port  Address   Decoding. [6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="UNIT-VIII: I/O Interface – 2, Interrupts, and DMA:"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; I/O Interface (continued):  The  Programmable  Peripheral  Interface 82C55,
+ Programmable Interval Timer 8254.&#10; Interrupts:  Basic  Interrupt  Processing,   Hardware  Interrupts:  INTR and INTA ;&#10;   Direct  Memory  Access:  Basic  DMA  Operation  and  Definition. [7 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Text Books:&#10;"
+            android:textColor="#ff005c00"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="1. Barry B Brey: The Intel Microprocessors, 8th Edition, Pearson Education, 2009.
+(Listed topics only from the Chapters 1 to 13)."
+            android:textColor="#ff00000f"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Reference Books:&#10;"
+            android:textColor="#ff005c00"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="1. Douglas V. Hall: Microprocessors and Interfacing, Revised 2nd Edition, TMH, 2006.
+&#10;2. K. Udaya Kumar and B. S. Umashankar : Advanced Microprocessors and IBM-PC Assembly Language Programming, TMH 2003.
+&#10;3. James L. Antonakos: The Intel Microprocessor Family: Hardware and Software Principles and Applications, Cengage
+Learning, 2007."
+            android:textColor="#ff00000f"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

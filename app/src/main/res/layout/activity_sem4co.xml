@@ -1,0 +1,233 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="0dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:paddingLeft="5dp"
+        android:paddingRight="0dp">
+        <TextView android:text="COMPUTER ORGANIZATION" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="21dp"
+            android:textColor="#ff005c00"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+        <TextView android:text="Subject Code: 10CS46 &#10;" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="20dp"
+            android:textColor="#ff005c00"
+            android:paddingLeft="50dp"
+            android:paddingRight="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;PART-A:"
+            android:textSize="22dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;&#10;UNIT-I: Basic Structure of Computers:"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Computer Types,  Functional Units,  Basic Operational Concepts, Bus Structures, Performance – Processor Clock,   Basic  Performance  Equation,   Clock Rate,  Performance  Measurement,    Historical Perspective.
+Machine Instructions and Programs:   Numbers,   Arithmetic Operations   and   Characters,   Memory Location  and  Addresses,
+Memory  Operations,   Instructions  and  Instruction  Sequencing.[6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-II :Machine Instructions and Programs contd.:"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;: Addressing Modes,  Assembly Language,  Basic Input and  Output Operations,  Stacks
+and  Queues,  Subroutines,  Additional  Instructions,  Encoding of  Machine  Instructions.[7 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-III:Input/output Organization:"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Accessing I/O Devices, Interrupts – Interrupt Hardware, Enabling and Disabling Interrupts, Handling
+Multiple Devices, Controlling Device Requests, Exceptions, Direct Memory Access, Buses.[6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-IV: Input/output Organization contd.:"
+            android:textSize="19dp"
+            android:textColor="#ff212185"
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="&#10;Interface Circuits, Standard I/O Interfaces – PCI Bus, SCSI Bus, USB.[7 Hours]&#10;"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;PART-B:"
+            android:textSize="22dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="&#10;&#10;UNIT-V: Memory System:"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Basic Concepts,  Semiconductor  RAM Memories,  Read Only Memories,  Speed,  Size,  and  Cost,  Cache
+Memories–Mapping Functions,  Replacement Algorithms,  Performance  Considerations,  Virtual  Memories,  Secondary Storage.[7 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="UNIT-VI: Arithmetic:"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Addition and Subtraction of Signed Numbers, Design of Fast Adders,  Multiplication of  Positive  Numbers,  Signed  Operand  Multiplication,  Fast  Multiplication,  Integer Division,   Floating-point  Numbers and Operations.[7 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="UNIT-VII: Basic Processing Unit:"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Some Fundamental Concepts,  Execution of a  Complete  Instruction,  Multiple  Bus  Organization,  Hard-wired
+Control  and  Micro  programmed  Control. [6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="UNIT-VIII: Multicores, Multiprocessors, and Clusters:"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Performance, The Power Wall, The Switch from Uniprocessors to  Multiprocessors,  Amdahl’s Law,  Shared Memory Multiprocessors,  Clusters  and other  Message Passing,  Multiprocessors,  Hardware  Multithreading,  SISD,  IMD,  SIMD,  SPMD,  and Vector. [6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Text Books:&#10;"
+            android:textColor="#ff005c00"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="1. Carl Hamacher, Zvonko Vranesic, Safwat Zaky: Computer Organization, 5th Edition, Tata McGraw Hill, 2002. (Listed topics only from Chapters 1, 2, 4, 5, 6, 7)
+&#10;2. David A. Patterson, John L. Hennessy: Computer Organization and Design – The Hardware / Software Interface ARM Edition, 4th Edition, Elsevier, 2009. (Listed topics only)."
+            android:textColor="#ff00000f"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Reference Books:&#10;"
+            android:textColor="#ff005c00"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="1. William Stallings: Computer Organization and Architecture, 7th Edition, PHI, 2006.&#10;
+2. Vincent P. Heuring and Harry F. Jordan: Computer Systems Design and Architecture, 2nd Edition, Pearson Education, 2004."
+            android:textColor="#ff00000f"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

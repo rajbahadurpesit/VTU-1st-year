@@ -1,0 +1,18 @@
+#!/bin/sh
+if [ $# -eq 0 ]
+then
+	echo " no ip";
+	exit;
+else
+	var=$0;
+	var=$var""$*;
+for i in $*
+do
+ 	echo " code to recreate file $i " >>cr.sh
+	cat $i>>cr.sh
+	echo " endf "cr.sh
+	echo "creation done"cr.sh
+done
+fi
+exit 0;
+

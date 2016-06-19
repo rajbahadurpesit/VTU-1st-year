@@ -1,0 +1,153 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="0dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:paddingLeft="5dp"
+        android:paddingRight="0dp">
+        <TextView android:text="Computer Aided Engineering Drawing(14CDE14/14CDE24)&#10;" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="21dp"
+            android:textColor="#ff005c00"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-1:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Introduction to Computer Aided Sketching:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction, Drawing Instruments and their uses, BIS conventions,Lettering, Dimensioning and free hand practicing. Computer screen, layoutof the software, standard tool bar/menus and description of mostcommonly used tool bars, navigational tools. Co-ordinate system andreference planes. Definitions of HP, VP, RPP and LPP. Creation of 2D/3Denvironment. Selection of drawing size and scale. Commands and creationof Lines, Co-ordinate points, axes, poly-lines, square, rectangle,polygons, splines, circles, ellipse, text, move, copy, off-set, mirror, rotate,trim, extend, break, chamfer, fillet, curves, constraints viz. tangency,parallelism, inclination and perpendicularity. Dimensioning, lineconventions, material conventions and lettering.&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-2:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Orthographic Projections:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction, Definitions - Planes of projection, reference line andconventions employed, Projections of points in all the four quadrants,Projections of straight lines (located in First quadrant/first angle only),True and apparent lengths, True and apparent inclinations to referenceplanes (No application problems).Orthographic Projections of Plane Surfaces (First Angle Projection Only) :Introduction, Definitions–projections of plane surfaces–triangle, square,rectangle, rhombus, pentagon, hexagon and circle, planes in different positions by change of position method only (No problems on punchedplates and composite plates).&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-3:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Projections of Solids (First Angle Projection only):&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction, Definitions – Projections of right regular tetrahedron,hexahedron (cube), prisms, pyramids, cylinders and cones in differentpositions (No problems on octahedrons and combination solid).&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-4:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Sections and Development of Lateral Surfaces of Solids:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="Introduction, Section planes, Sections, Section views, Sectional views,Apparent shapes and True shapes of Sections of right regular prisms,pyramids, cylinders and cones resting with base on HP. (No problems onsections of solids)Development of lateral surfaces of above solids, their frustums andtruncations. (No problems on lateral surfaces of trays, tetrahedrons,spheres and transition pieces).&#10;"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-5:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="&#10;Isometric Projection (Using Isometric Scale Only):&#10;"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction, Isometric scale, Isometric projection of simple plane figures,Isometric projection of tetrahedron, hexahedron(cube), right regular prisms,pyramids, cylinders, cones, spheres, cut spheres and combination ofsolids (Maximum of three solids).&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

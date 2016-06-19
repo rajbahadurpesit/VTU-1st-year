@@ -1,0 +1,227 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="0dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:paddingLeft="5dp"
+        android:paddingRight="0dp">
+        <TextView android:text="OPERATIONS RESEARCH" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="21dp"
+            android:textColor="#ff005c00"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+        <TextView android:text="Subject Code: 10CS661/10IS661 &#10;" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="20dp"
+            android:textColor="#ff005c00"
+            android:paddingLeft="50dp"
+            android:paddingRight="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;PART-A:"
+            android:textSize="22dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;&#10;UNIT-I: Introduction, Linear Programming-1:"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Introduction: The origin,   nature   and   impact   of   OR;    Defining   the  problem   and   gathering   data;    Formulating   a   mathematical   model;    Deriving   solutions   from   the   model;    Testing   the   model;    Preparing    to   apply   the   model;    Implementation.
+Introduction   to   Linear   Programming:   Prototype  example;    The  linear   programming  (LP)   model. [6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-II : LP – 2, Simplex Method – 1:"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Assumptions  of  LP;   Additional   examples.    The   essence  of  the  simplex  method;    Setting up the simplex method;    Algebra  of the   simplex   method;    the  simplex   method   in   tabular  form;     Tie  breaking  in the  simplex  method. [7 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-III: Simplex Method – 2:"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Adapting to other model forms;   Post   optimality  analysis;   Computer  implementation   Foundation   of   the   simplex  method. [6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-IV: Simplex Method – 2, Duality Theory:"
+            android:textSize="19dp"
+            android:textColor="#ff212185"
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="&#10; The revised  simplex   method,   a  fundamental   insight.   The   essence   of   duality   theory;    Economic    interpretation   of   duality,   Primal    dual   relationship;   Adapting   to   other   primal   forms. [7 Hours]&#10;"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;PART-B:"
+            android:textSize="22dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="&#10;&#10;UNIT-V: Duality Theory and Sensitivity Analysis, Other Algorithms for LP:"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; The role  of  duality  in  sensitive  analysis;   The   essence    of   sensitivity   analysis;   Applying   sensitivity    analysis.    The   dual   simplex   method;   Parametric   linear   programming;    The   upper   bound   technique. [7 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="UNIT-VI: Transportation and Assignment Problems: "
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;The  transportation  problem;   A streamlined   simplex   method   for   the   transportation   problem;   The   assignment   problem;   A  special   algorithm  for   the   assignment  problem. [7 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="UNIT-VII: Game Theory, Decision Analysis:"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Game Theory: The   formulation  of   two  persons,   zero   sum   games;     Solving   simple    games-  a   prototype   example;   Games    with   mixed   strategies;    Graphical   solution   procedure;    Solving    by   linear   programming,   Extensions.
+Decision  Analysis: A  prototype  example;   Decision   making   without   experimentation;    Decision   making   with   experimentation;   Decision   trees. [6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="UNIT-VIII: Metaheuristics:"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; The nature of Metaheuristics, Tabu Search, Simulated Annealing, Genetic Algorithms.&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Text Books:&#10;"
+            android:textColor="#ff005c00"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="1. Frederick S. Hillier and Gerald J. Lieberman: Introduction to Operations Research: Concepts and Cases, 8th Edition, Tata McGraw Hill, 2005. (Chapters: 1, 2, 3.1 to 3.4, 4.1 to 4.8, 5, 6.1 to 6.7, 7.1 to 7.3, 8, 13, 14, 15.1 to 15.4."
+            android:textColor="#ff00000f"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Reference Books:&#10;"
+            android:textColor="#ff005c00"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="1. Wayne L. Winston: Operations Research Applications and Algorithms, 4th Edition, Cengage Learning, 2003.
+&#10;&#10;2. Hamdy A Taha: Operations Research: An Introduction, 8th Edition, Pearson Education, 2007.&#10;"
+            android:textColor="#ff00000f"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

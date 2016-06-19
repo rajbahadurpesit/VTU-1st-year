@@ -1,0 +1,49 @@
+          5a.l
+
+%{
+  #include"y.tab.h"
+  int yylval;
+%}
+
+
+
+%%
+[0-9]+ yylval=atoi(yytext); return NUM;
+[\t];
+[\n] 
+. return yytext[0];
+%%
+          
+	5a.y
+
+%{
+  #include<ctype.h>
+  #include<stdio.h>
+%}
+%token NUM
+%left '+''-'
+%left '*''/'
+
+%%
+exp:e {printf("Value of the expression is %d\n",$1);}
+e:e'+'e {$$=$1+$3;}
+e:e'-'e {$$=$1-$3;}
+e:e'*'e {$$=$1*$3;}
+e:e'/'e {if($3==0) printf("Invalid\n"); $$=$1/$3;}
+e:NUM {$$=$1;}
+e:'-'e {$$=-$2;}
+%%
+
+	*****
+
+main()
+{
+ printf("Enter the expression\n");
+ yyparse();
+ printf("valid expression\n");
+}
+yyerror()
+{
+ printf("invalid expression\n");
+ exit(0);
+}

@@ -1,0 +1,179 @@
+EXP2.tcl
+
+#1.create a new simulator instance
+
+set ns [new Simulator]
+#create the trace and animation file and turn on for record the events
+set f [open p2.tr w]
+set nf [open p2.nam w]
+$ns trace-all $f
+$ns namtrace-all $nf
+
+#define the finish procedure to be called at the end of simulation
+proc finish {} {
+	global f nf ns
+	$ns flush-trace
+	close $f
+	close $nf
+	exec nam p2.nam &
+	exec awk p2.awk -f p2.tr &
+	exit 0
+	}
+
+#2.create the nodes
+
+set n0 [$ns node]
+set n1 [$ns node]
+set n2 [$ns node]
+set n3 [$ns node]
+
+
+
+#3.label the nodes
+
+$n0 label "TCP source"
+$n1 label "UDP source"
+$n2 label "Router"
+$n3 label "Sink"
+# packet color
+$ns color 1 red
+$ns color 2 blue
+
+#4.create links between the nodes
+
+$ns duplex-link $n0 $n2 2Mb 10ms DropTail
+$ns duplex-link $n1 $n2 2Mb 10ms DropTail
+$ns duplex-link $n2 $n3 2Mb 20ms DropTail
+
+#set a queue size between n2 and n3
+$ns queue-limit $n2 $n3 30
+
+#make the link orientation
+$ns duplex-link-op $n0 $n2 orient right-down
+$ns duplex-link-op $n1 $n2 orient right-up
+$ns duplex-link-op $n2 $n3 orient right
+
+#5.create a UDP agent and attach to the node n0
+
+set udp0 [new Agent/UDP]
+$ns attach-agent $n1 $udp0
+
+#create  a CBR traffic source and attach to the udp agent
+set cbr0 [new Application/Traffic/CBR]
+$cbr0 attach-agent $udp0
+#set the packet size and interval
+$cbr0 set packetSize_ 300
+$cbr0 set interval_ 0.002
+
+#create a null agent and attach to the node n1
+set null0 [new Agent/Null]
+$ns attach-agent $n3 $null0
+
+#setup a connection b/w the udp and null agent
+$ns connect $udp0 $null0
+
+
+#6.create tcp agent source attach to the node n0
+
+set tcp0 [new Agent/TCP]
+$ns attach-agent $n0 $tcp0
+
+#create a ftp traffic source and attach to the tcp agent
+set ftp0 [new Application/FTP]
+$ftp0 attach-agent $tcp0
+
+
+
+#create a  tcpsink agent attach to the node n1
+set sink [new Agent/TCPSink]
+
+$ns attach-agent $n3 $sink
+
+#setup a path b/w the tcpagent and tcpsink
+$ns connect $tcp0 $sink
+$ftp0 set maxpkts_ 1000
+
+#setup a colors to the packets
+$tcp0 set class_ 1
+$udp0 set class_ 2
+
+#7.schedeule the events
+$ns at 0.1 "$cbr0 start"
+$ns at 0.5 "$ftp0 start"
+$ns at 4.0 "$ftp0 stop"
+$ns at 4.5 "$cbr0 stop"
+
+$ns at 5.0 "finish"
+#to run the simulation
+$ns run
+
+
+EXP2.awk
+
+#!/usr/bin/fawk -f
+
+BEGIN{
+	tcpsend=0;
+	cbrsend=0;
+	tcpdrop=0;
+	cbrdrop=0;
+	tcpdeliveryratio=0.0;
+	cbrdeliveryratio=0.0;
+}
+{
+	event=$1;
+	src=$3;
+	des=$4;
+	type=$5;
+	if((event=="+")&&(src=="0")&&(des=="2"))
+	{
+		tcpsend=tcpsend+1;
+	}
+	 if((event=="+")&&(src=="1")&&(des=="2"))
+        {
+                cbrsend=cbrsend+1;
+        }
+
+if((event=="d")&&(type=="cbr"))
+        {
+                cbrdrop=cbrdrop+1;
+        }
+	if((event=="d")&&(type=="tcp"))
+        {
+                tcpdrop=tcpdrop+1;
+        }
+}
+END{
+	tcpdeliveryratio=(tcpsend-tcpdrop)/tcpsend;
+	cbrdeliveryratio=(cbrsend-cbrdrop)/cbrsend;
+	printf("the tcp packet delivery ratio=%f\n",tcpdeliveryratio);
+	printf("the cbr packet delivery ratio=%f\n",cbrdeliveryratio);
+}
+
+EXP2.xgraph
+TitleText: Performance analysis (Bandwidth Vs Packetdeliveryratio)
+XUnitText: Bandwidth in Mbps
+YUnitText: Packet delivery ratio
+
+"CBR"
+0.5 0.3933
+1.0 0.7457
+1.5 0.976
+2.0 0.986
+2.5 0.975
+
+"TCP"
+0.5 0.285
+1.0 0.642
+1.5 0.850
+2.0 0.972
+2.5 0.996
+
+
+
+
+OUTPUT
+
+:$awk –f p2.awk p2.tr
+the tcp packet delivery ratio=0.970414
+the cbr packet delivery ratio=0.980463

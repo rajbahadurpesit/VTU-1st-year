@@ -1,0 +1,102 @@
+ 12
+
+Creating Books Database
+mysql -u root
+
+create database lab12_development;
+//create database lab12_test;
+//create database lab12_production;
+use lab12_development;
+create table books (
+id int not null auto_increment,
+accession_no int not null,
+title varchar(80) not null,
+authors text not null,
+edition decimal(8, 2) not null,
+publisher varchar(80) not null,
+primary key(id)
+);
+
+After creating the database and table, quit from mysql.. quit
+
+Creating lab12 Project
+rails -d mysql lab12
+
+Change the directory to lab12
+Cd lab12
+
+Creating controller, model and view from database
+ruby script/generate scaffold Book accession_no:integer title:string authors:text edition:float publisher:string
+
+Starting Rails Server
+ruby script/server
+Executing in the web browser
+http://localhost:3000/books
+
+To stop browser Ctrl + c
+
+Creating main (new) controller for searching book
+ruby script/generate controller main
+Opening main controller program
+edit app\controllers\main_controller.rb
+class MainController < ApplicationController
+     def welcome
+          @num_books = Book.count
+     end
+     def result
+          @booktitle = params[:title]
+          @bookz = Book.find(:all, :conditions => "title = '#{@booktitle}'")
+     end
+
+end
+
+Create two views welcome and result
+
+Create Result view file
+> notepad app\views\main\result.rhtml
+<html>
+<title> Welcome template for books </title>
+<body>
+<p> Entered book title is <%= @booktitle %> </p>
+<table border=1>
+<tr><th>Accession No.</th><th>Book Title</th><th>Authors </th> <th>Publishers </th> <th>Edition </th></tr>
+<% @bookz.each do |bk|
+@id = bk.id
+@accession= bk.accession_no;
+@title = bk.title
+@authors = bk.authors
+@publisher = bk.publisher
+@edition = bk.edition %>
+<tr>
+<td> <%= @accession %></td>
+<td><%= @title %> </td>
+<td><%= @authors %></td>
+<td> <%= @publisher %></td>
+<td> <%= @edition %></td>
+</tr>
+<% end %>
+</table>
+</form>
+</body>
+</html>
+
+
+Create Welcome view file
+> notepad app\views\main\welcome.rhtml
+<html>
+<title> Welcome template for books </title>
+<body>
+<p> Total number of books = <%= @num_books %> </p>
+<form action = "result" >
+Enter Searching Title: <input type="text" name="title" />
+<input type=submit value="Search" />
+</form>
+</body>
+</html>
+Starting Rails Server
+ruby script/server
+Executing in the web browser
+http://localhost:3000/main/welcome
+Welcome.rhtml
+Result.rhtml
+

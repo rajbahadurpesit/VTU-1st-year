@@ -1,0 +1,55 @@
+      WEB-TECHNOLOGY(JAN-2014)
+          PART-A
+
+1(a).What is MIME? Explain his type specifications.(04 Marks)
+
+(b).Give the general form of HTTP request phase and also explain, it. detail.(08 Marks)
+
+(c).Explain the different image formats,write XHTML document to illustrate use od <img>(with all attributes).(08 Marks)
+
+2(a).Explain the different levels of style sheets are available CSS.(04 Marks)
+
+(b).Create XHTML document that conatins student information viz name, usn, subject1,subject 2 and subject 3. Insert values for each student in five lows. Also row background of each student should be in the different color.(08 Marks)
+
+(c).Explain following tags, with example(08 Marks)
+(i)Select (ii)Frame (iii)Textarea (iv)Div
+
+3(a).Explain the different primitive types in javaScript.
+
+(b).Write a javascript to validate the name , the name should be entered using prompt. The first and last name should not more than 10 characters and the middle name must contain only initial. If so display validation corresponding name. The format is the first_name second_name third_name. There should be single white space between first_name, second_name and third _name.(14 Marks)
+
+4(a).Explain the different types of positioning elements, with example.(08 Marks)
+
+(b).Write XHTML and JavaScript script which has five buttons labeled five different colors. The even handler for these buttons must produce a message starting the chosen favorite color the even handler must be implemented as a function. Whose name must be assigned to the oneclick attribute of the radio button element. The choosen color must be sent to the event handler as a parameter use a onclick event to trigger a call to alert, which should display brief description of the selected color.
+
+(c).Explain Navigator object, with an example.
+
+        PART-B
+
+5(a).What is DTD? What are the main advantages of XML schema over DTD's.(06 Marks)
+
+(b).Explain the three types that can be used to describe data in an element declaration, with an example each.(09 Marks)
+
+(c).How does an XSLT processor use an XSLT stylesheet ith an XML document?(05 Marks)
+
+6(a).Explain the different categories of a variable in Perl along, with an example.(09 Marks)
+
+(b).Write a Perl program to copy contents from one file to another.(04 Marks)
+
+(c).What is CGI? Explain CGI pm module,with an example.(07 Marks)
+
+7(a).Explain any six string functions in PHP.(06 Marks)
+
+(b).With a neat diagram, explain logical internal structure of array in PHP.(04 Marks)
+
+(c).Write a PHP functions that reads contents from a file and write into a file.(06 Marks)
+
+(d).Explain the different types of scalar types are available in PHP.(04 Marks)
+
+8(a).Discuss the different pattern matching operations are available in ruby with example each.(09 Marks)
+
+(b).Explain keyboard input and screen output in ruby.(04 Marks)
+
+(c).Explain with a neat diagram, directory structure of rails I application.(07 Marks)
+
+

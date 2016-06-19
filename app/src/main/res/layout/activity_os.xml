@@ -1,0 +1,158 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="simple.raj.com.testforstring.SE"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff">
+        <TextView android:text="Operating Systems(10CS53)" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="21dp"
+            android:textColor="#ff212185"
+            android:paddingLeft="50dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PART-A&#10;"
+            android:textSize="21dp"
+            android:layout_gravity="center"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-1: Introduction to Operating Systems, System structures:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What operating system do; Computer System organisation; Computer System architecture; Operating System structure; Operating System operations; Process management; Memory management; Storage management; Protection and Security; Distributed System; Special purpose system; Computing Environments. Operating System Services;User-Operating System interface; System calls; Types of system calls; System programs; Operating System Design and implementation; Operating System structure; Virtual machines; Operating System Generation; System boot.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-2 : Process Management:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Process concept; Process scheduling; Operations on Process; Inter-Process Communication.&#10; Multi-Threaded Programming:Overview; Multithreading models; Thread Libraries; Threading issues. &#10;Process Scheduling:Basic Concepts; Scheduling criteria; Scheduling algorithms; Multiple-Processor scheduling; Thread scheduling.&#10; "
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-3: Process Synchronization:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Synchronization:The Critical section problem; Peterson's solution; Synchronization hardware; Semaphores; Classical problems of synchronization: Monitors"
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-4: Deadlocks:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Deadlocks: System model; Deadlock characterization; Method for handling deadlocks; Deadlock prevention; Deadlock avoidance; Deadlock detection and recovery from deadlock&#10;"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PART-B&#10;"
+            android:textSize="21dp"
+            android:textColor="#ff212185"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIT-5: Memory Management"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Memory Management Strategies: Background; Swapping; Contiguous Memory Allocation; Paging; Structure of Page table; Segmentation.&#10; Virtual memory management: Background; Demand Paging; Copy-on-write; Page replacement; Allocation of frames; Thrashing.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIT-6: File System, Implementation of File System:"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="File System: File Concept; Access methods Directory structure; File System Mounting; File sharing; Protection. Implementing File System: File system structure; File system implementation; Directory implementation; Allocation methods; Free space management.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIT-7: Secondary Storage Structures, Protection:"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Mass storage structures; Disk structure; Disk attachment; Disk scheduling; Disk management; Swap space management.&#10; Goals of Protection, Principles of protection, Domain of protection, Access matrix, Implementation of access matrix, Access control, Revocation of access rights, Capability-Based systems.&#10; "
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIT-8: Case Study:The Linux Operating System:"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Linux History; Design principles; Kernel modules; Process management; Scheduling; Memory management; File System, Input and Output; Inter-Process Communication.&#10;"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Books:"
+            android:textColor="#ff212185"
+            android:textSize="19dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="Abraham Silberschartz, Peter Baer Galvin, Greg Gagne: Operating System Principles,8th Edition, Willey India,2009."
+            android:textColor="#ff00000f"/>
+
+
+    </LinearLayout>
+</ScrollView>

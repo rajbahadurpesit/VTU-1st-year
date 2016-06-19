@@ -1,0 +1,59 @@
+        JAVA and J2EE(JAN-2015)
+
+          PART-A
+
+1(a).How arrays are defined in java? Explain with an example.(05 Marks)
+
+(b).Differentiate the usage of access specifiers in java and their scope.(05 Marks)
+
+(c).Write and demonstrate a java program to initialize and display different types of integers and floating point variables.(05 Marks)
+
+(d).Define type casting. Explain with an example.(05 Marks)
+
+2(a).Define an applet. Explain the skeleton of an applet.(08 Marks)
+
+(b).Write a Java program to perform the addition of two complex numbers by using the method and() by passing object as a parameter and display the result using method display(). Initialize the real and imaginary values of the complex number usng parameter constructor.(08 Marks)
+
+(c).Write the syntax of try and catch block to handle multiple exceptions,explain.(04 Marks)
+
+3(a).What is synchronization? Explain the role of synchronization with producer and consumer problem.(10 Marks)
+
+(b).Describe the thread priority. How to assign and get the thread priority.(05 Marks)
+
+(c).Explain any two event listener interfaces with its function or methods.(05 Marks)
+
+4(a).Write a swing applet program to demonstrate with two Jbuttons named India and Srilanka. When either of buttons pressed, it should display respective label with its icon. Refer the image icons "India.gif" and "Srilanka.gif". Set the initial label is "press the button".(10 Marks)
+
+(b).Explain thr JScrollPane with an example.(05 Marks)
+
+(c).Explain IComboBox with an example.(05 Marks)
+
+            PART-B
+
+5(a).Describe the steps of JDBC process with suitable exception handling blocks.(10 Marks)
+
+(b).What is ResultSet?How to set scroll options to Result. Explain.(05 Marks)
+
+(c).Write note on Database metadata object methods and ResultSet metadata object methods.(05 Marks)
+
+6(a).Describe the simple html file to pass the parameter to servlet and display the parameter values accepted by servlet.(08 Marks)
+
+(b).Explain the servlet life cycle with example.(06 Marks)
+
+(c).Define a cookie. Explain how the cookies are created using Java servlet.(06 Marks)
+
+7(a).List and describe the different types of JSP tags.(06 Marks)
+
+(b).What is session? Explain how to create session using JSP.(06 Marks)
+
+(c).Briefly explain how remote method invocation works in Java.(08 Marks)
+
+8.Write short notes on:
+
+(a)Deployment descriptors
+
+(b)JAR file
+
+(c)Message driven bean
+
+(d)Entity Java bean.

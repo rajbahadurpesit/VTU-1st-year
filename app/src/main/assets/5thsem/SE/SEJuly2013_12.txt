@@ -1,0 +1,53 @@
+Software Engineering(June-2013)
+
+        PART - A
+
+1a.What are the attributes of a good software? (04 Marks)
+
+b. Define software engineering. Explain the different types software products.(06 Marks)
+
+c.Explain emergent system properties with example.(10 Marks)
+
+
+
+2a.Explain the different type of critical systems.(06 Marks)
+
+b.Explain security terminologies.(05 Marks)
+
+c.Describe rational unified process with block diagram.(09 Marks)
+
+3a.Explain the metrics for specifying non-functional requirement.(06 Marks)
+
+b.Explain requirement engineering process.(06 Marks)
+
+c. Explain the structure of the requirement document.(08 Marks)
+
+4a.List and explain different types of system model.(10 Marks)
+
+b.What are project management activities.Explain(10 Marks)
+
+       PART-B
+
+5a.With an example describe the repository model and give its advantage and disadvantage.(10 Marks)
+
+b.Draw and explain state diagram for a typical weather station.(10 Marks)
+
+6a.Explain the principles of agile method.(06 Marks)
+
+b.What is pair programming.Explain its advantages.(06 Marks)
+
+c.Explain Lehman's law of program evolution dynamics.(08 Marks)
+
+7a.Briefly explain roles in inspection process.(06 Marks)
+
+b.Explain the clean room software development.(06 Marks)
+
+c.Explain the general model of testing with the help of block diagram.(08 Marks)
+
+8a.Explain any five factors governing staff selection.(05 Marks)
+
+b.What are the factors that influence group working.(05 Marks)
+
+c.Explain cost estimation techniques.(10 Marks)
+
+             *****

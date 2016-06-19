@@ -1,0 +1,94 @@
+4a.xml
+
+<?xml-stylesheet type="text/css" href="4a.css" ?>
+
+<students>
+
+<student>
+<usn>1PE10CS002</usn>
+<name>Abhinav</name>
+<college>PESIT-BSC</college>
+<branch>CSE</branch>
+<year>2010</year>
+<email>abhinavbhaskar2010@gmail.com</email>
+</student>
+
+<student>
+<usn>1PE10CS009</usn>
+<name>Akhil</name>
+<college>PESIT-BSC</college>
+<branch>CSE</branch>
+<year>2010</year>
+<email>bhutani2010@gmail.com</email>
+</student>
+
+<student>
+<usn>1PE10CS000</usn>
+<name>elektron</name>
+<college>PESIT-BSC</college>
+<branch>CSE</branch>
+<year>2010</year>
+<email>elektron@gmail.com</email>
+</student>
+
+</students>
+
+4a.css
+
+student { display:block; margin-top:20px; border:solid black; }
+usn { color: red; margin-left:20px; }
+name { color: blue; margin-left:20px; }
+college { color: maroon; margin-left:20px; }email { color: grey; margin-left:20px; }
+branch { color: green; margin-left:20px; }
+year { color: yellow; margin-left:20px; }
+
+4b.xml
+
+<?xml-stylesheet type="text/xsl" href="4b.xsl" ?>
+<students>
+<student>
+<usn>1PE10CS002</usn>
+<name>Abhinav</name>
+<college>PESIT-BSC</college>
+<branch>CSE</branch>
+<year>2010</year>
+<email>abhinavbhaskar2010@gmail.com</email>
+</student>
+
+<student>
+<usn>1PE10CS009</usn>
+<name>Akhil</name>
+<college>PESIT-BSC</college>
+<branch>CSE</branch>
+<year>2010</year>
+<email>bhutani2010@gmail.com</email>
+</student>
+
+<student>
+<usn>1PE10CS000</usn>
+<name>elektron</name>
+<college>PESIT-BSC</college>
+<branch>CSE</branch>
+<year>2010</year>
+<email>elektron@gmail.com</email>
+</student>
+</students>
+
+4b.xsl
+
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns =
+"http://www.w3.org/1999/xhtml" >
+<xsl:template match="students">
+<html>
+<h2> VTU Student Description </h2>
+<xsl:for-each select="student">
+USN : <span style="color:red;"><xsl:value-of select ="usn" /><br /></span>
+Name : <span style="color:maroon;"><xsl:value-of select ="name" /><br /></span>
+College : <span style="color:blue;"><xsl:value-of select ="college" /><br /></span>
+Branch : <span style="color:green;"><xsl:value-of select ="branch" /><br /></span>
+Year : <span style="color:yellow;"><xsl:value-of select ="year" /><br /></span>
+Email : <span style="color:grey;"><xsl:value-of select ="email" /><br /><hr
+/></span>
+</xsl:for-each>
+</html>
+</xsl:template></xsl:stylesheet>

@@ -1,0 +1,73 @@
+2a.html
+
+<?xmlversion="1.0" encoding="utf-8"?
+<!DOCTYPE html PUBLIC "-//w3/DTDXHTML1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3c.org/1999/xhtml">
+<head>
+<title> USN VALIDATION </title>
+</head>
+
+<body>
+<script type="text/javascript">
+function func(usn)
+{
+pattern=/^[1-9][A-Za-z]{2}[0-9]{2}[A-Za-z]{2}[0-9]{3}$/
+if(!usn.value.match(pattern)||usn.value.length==0)
+{
+alert("invalid usn")
+return false
+}
+else
+alert("valid usn")
+}
+</script>
+<form action="">
+USN : <input type="text" name="usn">
+<input type="submit" value="submit" onclick="func(usn)">
+</form>
+</body>
+</html>
+
+2b.html
+
+<?xmlversion="1.0" encoding="utf-8"?
+<!DOCTYPE html PUBLIC "-//w3/DTDXHTML1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3c.org/1999/xhtml">
+
+<head>
+<title> USN VALIDATION </title>
+</head>
+<body>
+
+<script type="text/javascript">
+function func(usn,sem)
+{
+pattern1=/^[1-9][A-Za-z]{2}[0-9]{2}[A-Za-z]{2}[0-9]{3}$/
+if(!usn.value.match(pattern1)||usn.value.length==0)
+{
+alert("invalid usn")
+return false
+}
+else
+alert("valid usn")
+pattern2=/^[1-8]$/
+if(!sem.value.match(pattern2)||sem.value.length==0)
+{
+alert("invalid sem")
+return false
+}
+else
+alert("valid sem")
+}
+</script>
+
+<form action="">
+USN : <input type="text" name="usn"><br/>
+SEM : <input type="text" name="sem">
+<input type="submit" value="submit" onclick="func(usn,sem)">
+</form>
+</body>
+</html>

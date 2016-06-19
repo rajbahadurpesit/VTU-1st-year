@@ -1,0 +1,265 @@
+fifoclient.c
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<errno.h>
+#include<string.h>
+#include<fcntl.h>
+#include<sys/types.h>
+#include<sys/stat.h>
+#include<unistd.h>
+#define FIFO1_NAME "fifo1"
+#define FIFO2_NAME "fifo2"
+int main()
+{
+   char p[100],f[100],c[300];
+   int num,num2,fl,fd,fd2;
+   mknod(FIFO1_NAME,S_IFIFO | 0666,0);
+   mknod(FIFO2_NAME,S_IFIFO | 0666,0);
+   printf("SERVER online!\n\n");
+   fd=open(FIFO1_NAME,O_RDONLY);
+   printf("Client Online!\n Waiting for request...\n\n");
+   while(1)
+   {
+     if((num=read(fd,p,100))==-1)
+     perror("read error\n");
+     else {
+            p[num]='\0';
+            if((fl=open(p,O_RDONLY))<0)
+            {
+             printf("\n SERVER %s not found!\n",p);
+             exit(1);
+            }
+            else {
+            printf("SERVER:%s found!\n Transferring the contents...\n",p);
+            stdin=fdopen(fl,"r");
+            if(fgets(c,300,stdin)!=NULL)
+            {
+             fd2=open(FIFO2_NAME,O_WRONLY);
+             if(num2=write(fd2,c,strlen(c))==-1)
+                 perror("Transfer error\n");
+             else
+                 printf("SERVER:Transfer Completed!\n");
+             }
+
+                            exit(1);
+           }
+         }
+      }
+  }
+
+
+  //fifoserver.c
+
+
+  #include<stdio.h>
+  #include<stdlib.h>
+  #include<errno.h>
+  #include<string.h>
+  #include<fcntl.h>
+  #include<sys/types.h>
+  #include<sys/stat.h>
+  #include<unistd.h>
+  #define FIFO1_NAME "fifo1"
+  #define FIFO2_NAME "fifo2"
+  int main()
+  {
+    char p[100],f[100],c[300];
+    int num,num2,fl,fd,fd2;
+    mknod(FIFO1_NAME,S_IFIFO | 0666,0);
+    mknod(FIFO2_NAME,S_IFIFO | 0666,0);
+    printf("\n Waiting for SERVER...\n");
+    fd=open(FIFO1_NAME,O_WRONLY);
+    printf("\n SERVER Online!\nclient:Enter the path\n");
+    while(gets(p),!feof(stdin))  {
+    if((num=write(fd,p,strlen(p)))==-1)
+    perror("write error\n");
+    else
+    {
+       printf("Waiting for reply...\n");
+       fd2=open(FIFO2_NAME,O_RDONLY);
+       if((num2=read(fd2,c,300))==-1)
+           perror("transfer error!\n");
+       else
+       {
+        printf("File received! Displaying the contents:\n\n");
+        if(fputs(c,stdout)==EOF)
+        perror("print error\n");
+        exit(1);
+       }
+    }
+  }
+  }
+
+
+
+
+
+ //fifo clientprimer.c
+
+ #include<stdio.h>
+ #include<stdlib.h>
+ #include<errno.h>
+ #include<string.h>
+ #include<fcntl.h>
+ #include<sys/types.h>
+ #include<sys/stat.h>
+ #include<unistd.h>
+ #define FIFO1_NAME "fifo1"
+ #define FIFO2_NAME "fifo2"
+ int main()
+ {
+    char filename[100],buf[100];
+    int m,n,fl,fd,fd2;
+    mknod(FIFO1_NAME,S_IFIFO | 0666,0);
+    mknod(FIFO2_NAME,S_IFIFO | 0666,0);
+ fd=open(FIFO1_NAME,O_WRONLY);
+ printf("Client Online!\n CLIENT:enter the filename...\n\n");
+    //printf("SERVER online!\n\n");
+    //fd=open(FIFO1_NAME,O_RDONLY);
+ scanf("%s",filename);
+ write(fd,filename,strlen(filename));
+ printf("Waiting for reply...\n");
+ fd2=open(FIFO2_NAME,O_RDONLY);
+ n=read(fd2,&buf,300);
+ buf[n]='\0';
+ printf("File received!...the contents are....\n\n");
+ puts(buf);
+ unlink(FIFO1_NAME);
+ unlink(FIFO2_NAME);
+ exit(1);
+ }
+
+ /*
+
+
+ n=read(fd,&filename,100);
+ filename[n]='\0';
+ f1=open(filename,O_RDONLY);
+ if(f1==-1)
+ {
+ 	fd2=open(FIFO2_NAME,O_WRONLY);
+ 	write(fd2,"File does not exist",25);
+ 	exit(0);
+ }
+ printf("SERVER:%s found!\n Transferring the contents...\n",filename);
+ filesize=lseek(f1,0,2);
+ lseek(f1,0,0);
+ n=read(f1,buf1,filesize);
+ buf1[n]='\0';
+ fd2=open(FIFO2_NAME,O_WRONLY);
+ write(fd2,buf1,n);
+ printf("SERVER:Transfer Completed!\n");
+ exit(0);
+ unlink(FIFO1_NAME);
+ unlink(FIFO2_NAME);
+ }
+
+    //printf("Client Online!\n Waiting for request...\n\n");   while(1)
+    {
+      if((num=read(fd,p,100))==-1)
+      perror("read error\n");
+      else {
+             p[num]='\0';
+             if((fl=open(p,O_RDONLY))<0)
+             {
+              printf("\n SERVER %s not found!\n",p);
+              exit(1);
+             }
+             else {
+             printf("SERVER:%s found!\n Transferring the contents...\n",p);
+             stdin=fdopen(fl,"r");
+             if(fgets(c,300,stdin)!=NULL)
+             {
+              fd2=open(FIFO2_NAME,O_WRONLY);
+              if(num2=write(fd2,c,strlen(c))==-1)
+                  perror("Transfer error\n");
+              else
+                  printf("SERVER:Transfer Completed!\n");
+              }
+
+                             exit(1);
+            }
+          }
+       }
+   }
+
+ */
+
+
+
+ //fifoserverprimer.c
+
+
+ #include<stdio.h>
+ #include<stdlib.h>
+ #include<errno.h>
+ #include<string.h>
+ #include<fcntl.h>
+ #include<sys/types.h>
+ #include<sys/stat.h>
+ #include<unistd.h>
+ #define FIFO1_NAME "fifo1"
+ #define FIFO2_NAME "fifo2"
+ int main()
+ {
+    char filename[100],buf[100],buf1[300];
+    int m,n,f1,fd,fd2,filesize;
+    mknod(FIFO1_NAME,S_IFIFO | 0666,0);
+    mknod(FIFO2_NAME,S_IFIFO | 0666,0);
+    printf("SERVER online!\n\n");
+    fd=open(FIFO1_NAME,O_RDONLY);
+ n=read(fd,&filename,100);
+ filename[n]='\0';
+ f1=open(filename,O_RDONLY);
+ if(f1==-1)
+ {
+ 	fd2=open(FIFO2_NAME,O_WRONLY);
+ 	write(fd2,"File does not exist",25);
+ 	exit(0);
+ }
+ printf("SERVER:%s found!\n Transferring the contents...\n",filename);
+ filesize=lseek(f1,0,2);
+ lseek(f1,0,0);
+ n=read(f1,buf1,filesize);
+ buf1[n]='\0';
+ fd2=open(FIFO2_NAME,O_WRONLY);
+ write(fd2,buf1,n);
+ printf("SERVER:Transfer Completed!\n");
+ exit(0);
+ unlink(FIFO1_NAME);
+ unlink(FIFO2_NAME);
+ }
+
+    //printf("Client Online!\n Waiting for request...\n\n");
+
+ /*   while(1)
+    {
+      if((num=read(fd,p,100))==-1)
+      perror("read error\n");
+      else {
+             p[num]='\0';
+             if((fl=open(p,O_RDONLY))<0)
+             {
+              printf("\n SERVER %s not found!\n",p);
+              exit(1);
+             }
+             else {
+             printf("SERVER:%s found!\n Transferring the contents...\n",p);
+             stdin=fdopen(fl,"r");
+             if(fgets(c,300,stdin)!=NULL)
+             {
+              fd2=open(FIFO2_NAME,O_WRONLY);
+              if(num2=write(fd2,c,strlen(c))==-1)
+                  perror("Transfer error\n");
+              else
+                  printf("SERVER:Transfer Completed!\n");
+              }
+
+                             exit(1);
+            }
+          }
+       }
+   }
+
+ */

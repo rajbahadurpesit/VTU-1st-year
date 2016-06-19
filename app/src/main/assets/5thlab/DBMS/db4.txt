@@ -1,0 +1,74 @@
+CREATION OF EX4
+
+create database EX4;
+use EX4;
+
+create table author ( aid int, aname varchar(20), acity varchar(20), acountry varchar(20), primary key(aid) );
+
+create table publisher ( pid int, pname varchar(20), pcity varchar(20), pcountry varchar(20), primary key(pid) );
+
+create table category (cid int, description varchar(30), primary key(cid) );
+
+create table catalog( bid int, btitle varchar(30), aid int, pid int, cid int, year int, price int, primary key(bid), foreign key(aid) references author(aid), foreign key(pid) references publisher(pid), foreign key(cid) references category(cid) );
+
+create table orderdetails( oid int, bid int, quantity int, primary key(oid), foreign key(bid) references catalog(bid) );
+
+
+
+1.
+INSERT INTO AUTHOR VALUES(4204,'AJITH','BANGALORE','INDIA');
+
+INSERT INTO AUTHOR VALUES(4206,'JUJARE','BANGALORE','INDIA');
+
+INSERT INTO PUBLISHER VALUES(8404,'GREAT MAN','BANGALORE','INDIA');
+
+INSERT INTO CATEGORY VALUES(1204,'THRILLER');
+
+INSERT INTO CATALOG VALUES(1201,'MAN ON MOUNTAINS',4204,8404,1204,2005,3000);
+
+INSERT INTO CATALOG VALUES(1202,'MAN ON HEIGHTS',4204,8404,1204,2006,2000);
+
+INSERT INTO CATALOG VALUES(1203,'MAN ON GREATS',4204,8404,1204,2006,2000);
+
+INSERT INTO CATALOG VALUES(1204,'MAN ON FLIES',4206,8404,1204,2005,30);
+
+SELECT A.ANAME FROM AUTHOR A,CATALOG C WHERE A.AID=C.AID AND C.YEAR>2000 AND C.PRICE>(SELECT AVG(PRICE) FROM CATALOG) GROUP BY C.AID HAVING COUNT(*)>=2;
+
+
+2.
+INSERT INTO ORDERDETAILS VALUES(0112,1204,15);
+
+INSERT INTO ORDERDETAILS VALUES(0113,1201,3);
+-
+INSERT INTO ORDERDETAILS VALUES(0114,1202,4);
+
+SELECT A.ANAME FROM AUTHOR A,ORDERDETAILS O,CATALOG C WHERE A.AID=C.AID AND C.BID=O.BID AND O.QUANTITY =(SELECT MAX(O.QUANTITY) FROM ORDERDETAILS O) ;
+
+
+3.
+SELECT C.BID,C.PRICE*1.1 AS NEWPRICE FROM PUBLISHER P,CATALOG C WHERE P.PID=C.PID AND P.PNAME='GREAT MAN';
+
+
+insert into author values(420,"AJITH","bang","India");
+
+insert into author values(840,"Jujare","bang","India");
+
+insert into publisher values(920,"Wiley","chennai","India");
+
+insert into publisher values(120,"giley","chennai","India");
+
+insert into category values(320,"thriller");
+
+insert into catalog values(311,"Great",420,920,320,2007,3000);
+
+insert into catalog values(313,"Threat",420,120,320,2010,2000);
+
+insert into catalog values(349,"phat",840,920,320,2009,4000);
+
+insert into orderdetails values(711,311,5);
+
+insert into orderdetails values(782,349,10);
+
+insert into orderdetails values(342,313,7);
+
+

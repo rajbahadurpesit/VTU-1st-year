@@ -1,0 +1,101 @@
+EXP3.tcl
+
+set ns [new Simulator]
+set f [open ping.tr w]
+set nf [open ping.nam w]
+
+$ns trace-all $f
+$ns namtrace-all $nf
+
+proc finish {}
+{
+     global ns f nf
+	$ns flush-trace
+	close $f
+	close $nf
+	exec nam ping.nam &
+	exit 0
+}
+
+set n0 [$ns node]
+set n1 [$ns node]
+set n2 [$ns node]
+set n3 [$ns node]
+set n4 [$ns node]
+set n5 [$ns node]
+$n0 label "ping0"
+$n1 label "ping1"
+$n2 label "R1"
+$n3 label "R2"
+$n4 label "ping2"
+$n5 label "ping3"
+
+$ns duplex-link $n0 $n2 1mb 10ms DropTail
+$ns duplex-link $n1 $n2 1mb 10ms DropTail
+$ns duplex-link $n2 $n3 0.02mb 10ms DropTail
+
+$ns duplex-link $n3 $n4 1mb 10ms DropTail
+$ns duplex-link $n3 $n5 1mb 10ms DropTail
+
+$ns duplex-link-op $n0 $n2 orient right-down
+$ns duplex-link-op $n1 $n2 orient right-up
+$ns duplex-link-op $n2 $n3 orient right
+$ns duplex-link-op $n3 $n4 orient left-up
+$ns duplex-link-op $n3 $n5 orient left-down
+
+$ns color 1 red
+$ns color 2 blue
+$ns color 3 green
+$ns color 4 orange
+
+set ping0 [new Agent/Ping]
+$ns attach-agent $n0 $ping0
+set ping1 [new Agent/Ping]
+$ns attach-agent $n1 $ping1
+set ping2 [new Agent/Ping]
+$ns attach-agent $n4 $ping2
+
+set ping3 [new Agent/Ping]
+$ns attach-agent $n5 $ping3
+$ns connect $ping0 $ping2
+$ns connect $ping1 $ping3
+
+Agent/Ping instproc recv {from rtt}
+{
+$self instvar node_
+puts "the node [$node_ id] recieved an ACK from the node $from with RTT of $rtt ms"
+}
+
+proc SendPingPacket {}
+{
+
+	global ns ping0 ping1
+	set intervalTime 0.01
+	set now [$ns now]
+	$ns at [expr $now+$intervalTime] "$ping0 send"
+	$ns at [expr $now+$intervalTime] "$ping1 send"
+	$ns at [expr $now+$intervalTime] "SendPingPacket"
+}
+$ping0 set class_ 1
+$ping1 set class_ 2
+$ping2 set class_ 3
+$ping3 set class_ 4
+
+$ns at 0.01 "SendPingPacket"
+$ns at 10.0 "finish"
+$ns run
+
+
+EXP3.xg
+
+TitleText: Performace Analysis (Bandwidth vs packet drop ratio)
+XunitText: Bandwidth(mbps)
+YunitText: packet drop ratio
+"packet loss"
+0.01	1750
+0.02	1555
+0.03	1361
+0.04	1166
+0.05	0972
+0.1	0000
+

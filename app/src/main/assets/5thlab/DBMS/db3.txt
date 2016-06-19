@@ -1,0 +1,62 @@
+CREATE EX3
+
+DROP DATABASE EX3;
+CREATE DATABASE EX3;
+USE EX3;
+
+create table student ( regno varchar(20), name varchar(20), major varchar(10), bdate date, primary key(regno) );
+
+
+create table course ( cno int, cname varchar(20), dept varchar(20), primary key(cno) );
+
+create table enroll ( regno varchar(20), cno int, marks int, sem int, primary key(sem,regno,cno), foreign key(regno) references student(regno), foreign key(cno) references course(cno) );
+
+create table text( isbn int, title varchar(30), publisher varchar(20), author varchar(20), primary key(isbn) );
+
+create table adopt( cno int, sem int, isbn int, foreign key(cno) references course(cno), foreign key(isbn) references text(isbn) , foreign key(sem) references enroll(sem));
+
+
+1.
+INSERT INTO TEXT VALUES(3042,'NEW','PEARSON','AJITH');
+INSERT INTO ADOPT VALUES(1009,7,3042);
+
+
+2.
+INSERT INTO TEXT VALUES(1523,"T1","BILL","AJITH");
+
+INSERT INTO TEXT VALUES(1524,"T2","WILL","JUJARE");
+
+INSERT INTO TEXT VALUES(1525,"T3","KILL","JOSEPH");
+
+INSERT INTO TEXT VALUES(1526,"T4","MILL","KUMAR");
+
+INSERT INTO COURSE VALUES(4221,"KING","CSE");
+
+INSERT INTO COURSE VALUES(4226,"BING","ISE");
+
+INSERT INTO COURSE VALUES(4229,"PING","ECE");
+
+INSERT INTO STUDENT VALUES("1PE11CS010","AJITH","CS","02-02-1994");
+
+INSERT INTO ENROLL VALUES("1PE11CS010",4221,100,5);
+
+INSERT INTO ADOPT VALUES(4221,5,1523);
+
+INSERT INTO ADOPT VALUES(4226,5,1524);
+
+INSERT INTO COURSE VALUES(4214,"KING","CSE");
+
+INSERT INTO ADOPT VALUES(4214,5,1526);
+
+INSERT INTO ADOPT VALUES(4214,5,1525);
+
+SELECT C.CNO,T.ISBN,T.TITLE FROM COURSE C,ADOPT A,TEXT T WHERE C.CNO=A.CNO AND C.DEPT='CSE' AND A.ISBN=T.ISBN AND EXISTS( SELECT COUNT(A1.CNO) FROM ADOPT A1 WHERE A1.CNO=C.CNO GROUP BY A1.CNO HAVING COUNT(*)>2 ) ORDER BY C.CNO,T.ISBN,T.TITLE;
+
+
+3.
+INSERT INTO TEXT VALUES(1292,"T9","BILL","AJITH");
+
+INSERT INTO ADOPT VALUES(4214,5,1292);
+
+
+SELECT DISTINCT C.DEPT FROM COURSE C,ADOPT A,TEXT T WHERE C.CNO=A.CNO AND T.ISBN=A.ISBN AND T.PUBLISHER='BILL' GROUP BY DEPT HAVING COUNT(A.ISBN)=(SELECT COUNT(*) FROM TEXT WHERE PUBLISHER='BILL'); 

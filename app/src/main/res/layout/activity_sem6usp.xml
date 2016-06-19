@@ -1,0 +1,229 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="0dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:paddingLeft="5dp"
+        android:paddingRight="0dp">
+        <TextView android:text="UNIX SYSTEM PROGRAMMING" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="21dp"
+            android:textColor="#ff005c00"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+        <TextView android:text="Subject Code: 10CS62&#10;" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="20dp"
+            android:textColor="#ff005c00"
+            android:paddingLeft="50dp"
+            android:paddingRight="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;PART-A:"
+            android:textSize="22dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;&#10;UNIT-I: Introduction:UNIX and ANSI Standards:"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;  The ANSI  C  Standard,    the    ANSI/ISO      C++ Standards,    Difference     between    ANSI C    and    C++,      the   POSIX   Standards,    the POSIX.1   FIPS   Standard,   the X/Open Standards.      UNIX   and    POSIX   APIs:    The   POSIX    APIs,    the    UNIX     and    POSIX    Development   Environment,    API   Common   Characteristics. [6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-II : UNIX Files:"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; File Types,   The   UNIX   and   POSIX   File   System,    The   UNIX   and    POSIX   File   Attributes,    Inodes  in  UNIX System  V,    Application   ProgramInterface   to    Files,     UNIX    Kernel      Support   for    Files,     Relationship     of      C    Stream    Pointers   and   File   Descriptors,    Directory    Files,   Hard   and   Symbolic   Links. [6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-III: UNIX File APIs:"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; General   File   APIs,    File   and   Record   Locking,   Directory   File   APIs,   Device   File   APIs,   FIFO File    APIs,    Symbolic   Link   File   APIs,    General   File   Class,    reg file   Class   for  Regular Files,     dir  file   Class   for   Directory    Files,    FIFO    File   Class,    Device    File   Class,   Symbolic    Link    File    Class,   File    Listing   Program. [7 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-IV: UNIX Processes:"
+            android:textSize="19dp"
+            android:textColor="#ff212185"
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="&#10; The   Environment  of a  UNIX  Process:  Introduction,    mainfunction,   Process   Termination,   Command-Line   Arguments,   Environment  List,   Memory   Layout   of   a   C Program,   Shared  Libraries,   Memory  Allocation,   Environment  Variables,   setjmp and   longjmp   Functions,   getrlimit,   setrlimit   Functions,   UNIX   Kernel   Support   for   Processes. [7 Hours]&#10;"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;PART-B:"
+            android:textSize="22dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="&#10;&#10;UNIT-V: Process Control :"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Introduction, Process   Identifiers, fork,   vfork,   exit,    wait,   waitpid,    wait3,   wait4   Functions,    Race   Conditions,   exec   Functions, Changing User   IDs   and   Group   IDs,    Interpreter   Files,   system   Function,   Process   Accounting,   User   Identification,   Process   Times,    I/O   Redirection.      Process    Relationships: Introduction,     Terminal  Logins,    Network Logins,    Process  Groups,    Sessions,    Controlling    Terminal,   tcgetpgrp   and    tcsetpgrp   Functions,   Job   Control,   Shell   Execution   of   Programs,   Orphaned   Process   Groups. [7 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="UNIT-VI: Signals and Daemon Processes:"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Signals: The UNIX Kernel   Support   for    Signals,    signal,   Signal  Mask,   sigaction,    The    SIGCHLD    Signal    and    the    waitpid    Function,    The sigsetjmp    and     siglongjmp      Functions,    Kill,    Alarm,    Interval  Timers,   POSIX.lb   Timers.
+&#10;Daemon Processes:  Introduction,   Daemon    Characteristics,    Coding   Rules,    Error  Logging,   Client-Server   Model. [7 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="UNIT-VII: Interprocess Communication – 1:"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Overview of IPC Methods,   Pipes,    popen,   pclose Functions,    Coprocesses,   FIFOs, System   V   IPC,    Message   Queues,    Semaphores. [6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="UNIT-VIII: Interprocess Communication – 2:"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Shared   Memory,    Client-Server   Properties,    Stream   Pipes,   Passing    File   Descriptors,   An   Open   Server-Version 1,   Client-Server   Connection   Functions. [6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Text Books:&#10;"
+            android:textColor="#ff005c00"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="
+    1. Terrence Chan: UNIX System Programming Using C++, PHI, 1999. (Chapters 1, 5, 6, 7, 8, 9, 10)&#10;&#10;
+    2. W. Richard Stevens: Advanced Programming in the UNIX Environment, 2nd Edition, Pearson Education, 2005. (Chapters 7, 8, 9, 13, 14, 15)
+."
+            android:textColor="#ff00000f"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Reference Books:&#10;"
+            android:textColor="#ff005c00"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="1. Marc J. Rochkind: Advanced UNIX Programming, 2nd Edition, Pearson Education, 2005.&#10;&#10;
+2. Maurice J Bach: The Design of the UNIX Operating System, Pearson Education, 1987.&#10;"
+            android:textColor="#ff00000f"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

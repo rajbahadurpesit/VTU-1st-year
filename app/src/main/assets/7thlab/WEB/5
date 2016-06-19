@@ -1,0 +1,50 @@
+5b.html
+
+<html>
+<head>
+<title>Execute command</title>
+</head>
+
+<body>
+
+<form action="http://localhost/cgi-bin/5b.pl">
+<input type="text" name="txtcmd">
+<input type="submit" value="Execute">
+</form>
+</body>
+</html>
+
+5b.pl
+
+#!/usr/bin/perl
+
+use CGI ':standard';
+
+print header();
+print start_html();
+
+$cmd = param("txtcmd");
+
+print "<h3> Output of <i>$cmd</i> :</h3> <pre> ".`$cmd`."</pre>";
+print end_html();
+
+5a.pl
+
+#!/usr/bin/perl
+use CGI ':standard';
+
+print header();
+print start_html();
+print "<h2>Server Information</h2>";
+
+print "<b>Server Name : </b> $ENV{'SERVER_NAME'} <br>";
+
+print "<b>Running on Port : </b> $ENV{'SERVER_PORT'} <br>";
+
+print "<b>Server Software : </b> $ENV{'SERVER_SOFTWARE'} <br>";
+
+print "<b>Server Protocol : </b> $ENV{'SERVER_PROTOCOL'} <br>";
+
+print "<b>CGI Revision : </b> $ENV{'GATEWAY_INTERFACE'} <br>";
+
+print end_html();

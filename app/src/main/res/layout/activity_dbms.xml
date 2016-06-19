@@ -1,0 +1,159 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="2dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff">
+        <TextView android:text="DBMS(10CS54)" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="21dp"
+            android:textColor="#ff212185"
+            android:paddingLeft="50dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PART-A&#10;"
+            android:textSize="21dp"
+            android:layout_gravity="center"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-1: Introduction:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction; An example;Characteristics of Database approach; Actors on the scene;Workers behind the scene;Advantages of using DBMS approach;A brief history of database application;when not to use DBMS.
+            &#10;Data models,schemas and instances;Three-schema architecture and data independence;Database language and interfaces;The database system environment;Centralized and client-server architectures;Classification of Database Management system.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-2 : Entity-Relationship Model:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Using High-Level Conceptual Data Models for Database Design;An Example Database Application;Entity Types,Entity Sets,Attributes and Keys;Relationship Sets,Roles and Structural Constraints;Weak Entity Types;Refining the ER Design;ER Diagrams,Naming Conventions and Design Issues;Relationship types of degree higher than two.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-3: Relational Model and Relational Algebra:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Relational Model Concepts;Relational Model Constraints and Relational Database Schemas;Update Operations,Transactions and dealing with constraints violations;
+            &#10;Unary Relational Operations:SELECT and PROJECT; Relational algebra operations from Set Theory;Binary Relational Operations:JOIN and DIVISION;Additional Relational Operations;Examples of Queries in Relational Algebra;Relational Database Design Using ER-to-Relational Mapping.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-4: SQL-1:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="SQL Data Definition and Data Types;Specifying basic constraints in SQL,Schema change statements in SQL;Basic queries in SQL;More complex SQL Queries.&#10;"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PART-B&#10;"
+            android:textSize="21dp"
+            android:textColor="#ff212185"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="21dp"
+            android:text="UNIT-5: SQL-2:"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Insert,Delete and Update statements in SQL; Specifying constraints as Assertion and Trigger;Views in SQL; Additional features of SQL; Database programming issues and techniques; Embedded SQL,Dynamic SQL;Database stored procedures and SQL/PSM.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIT-6: Database Design-1:"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Informal Design Guidelines for Relation Schemas;Functional Dependencies;Normal Forms Based on Primary Keys;General Definitions of Second and Third Normal Forms;BoyceCodd Normal Form.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIt-7: Database Design-2:"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Properties of Relational Decompositions; Algorithms for Relational Database Schema Design; Multivalued Dependencies and Fourth Normal Form; Join Dependencies and Fifth Normal; Inclusion Dependencies; Other Dependencies and Normal Forms. &#10;"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIT-8: Transactional Management:"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="The ACID properties; Transaction and Schedules; Concurrent Execution of Transactions; Lock-Based Concurrency Control; Performance of locking; Transaction support in SQL; Introduction to crash recovery; 2PL, Serializability and Recoverability; Lock Management; Introduction to ARIES; The log; Other recovery-related structures; The write-ahead log protocol; Checkpointing; Recovering from a system Crash; Media Recovery; Other appropriate and interaction with concurrency control.&#10;"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Books:"
+            android:textColor="#ff212185"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="1.Elmasri and Navathe: Fundamentals of Database Systems,5th Edition,Pearson Education,2007.(Chapters 1,2,3 except 3.8,5,6.1 to 6.5,7.1,8,9.1,9.2 except SQlJ,9.4,10)."
+            android:textColor="#ff00000f"/>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="simple.raj.com.vtuqpaper" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/iconfinal"
+        android:label="VTU CS/IS All-in-One"
+        android:logo="@drawable/iconfinal"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".VTU"
+            android:label="VTU CS/IS All-in-One" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Sem7"
+            android:label="SEM VII" >
+        </activity>
+        <activity
+            android:name=".Sem5"
+            android:label="SEM V" >
+        </activity>
+        <activity
+            android:name=".Sem3"
+            android:label="SEM III" >
+        </activity>
+        <activity
+            android:name=".ECS"
+            android:label="@string/title_activity_ecs" >
+        </activity>
+        <activity
+            android:name=".OOMD"
+            android:label="@string/title_activity_oomd" >
+        </activity>
+        <activity
+            android:name=".ACA"
+            android:label="@string/title_activity_ac" >
+        </activity>
+        <activity
+            android:name=".Gametheory"
+            android:label="Game Theory" >
+        </activity>
+        <activity
+            android:name=".WEB"
+            android:label="Programming The Web" >
+        </activity>
+        <activity
+            android:name=".Javaj2ee"
+            android:label="Java and J2EE" >
+        </activity>
+        <activity
+            android:name=".CN"
+            android:label="Computer Network" >
+        </activity>
+        <activity
+            android:name=".FLAT"
+            android:label="@string/title_activity_flat" >
+        </activity>
+        <activity
+            android:name=".OS"
+            android:label="Operating System" >
+        </activity>
+        <activity
+            android:name=".SS"
+            android:label="System Software" >
+        </activity>
+        <activity
+            android:name=".DBMS"
+            android:label="@string/title_activity_dbms" >
+        </activity>
+        <activity
+            android:name=".SE"
+            android:label="Software Engineering" >
+        </activity>
+        <activity
+            android:name=".Year"
+            android:label="Previous Year" >
+        </activity>
+        <activity
+            android:name=".JAN_15"
+            android:label="January 2015" >
+        </activity>
+        <activity
+            android:name=".JUNE_14"
+            android:label="June 2014" >
+        </activity>
+        <activity
+            android:name=".JAN_14"
+            android:label="January 2014" >
+        </activity>
+        <activity
+            android:name=".JUNE_13"
+            android:label="June 2013" >
+        </activity>
+        <activity
+            android:name=".JAN_13"
+            android:label="January 2013" >
+        </activity>
+        <activity
+            android:name=".Sem5labsub"
+            android:label="Sem V Lab" >
+        </activity>
+        <activity
+            android:name=".Sem5labprog"
+            android:label="Sem V Lab-programs" >
+        </activity>
+        <activity
+            android:name=".Sem7labsub"
+            android:label="Sem VII Lab" >
+        </activity>
+        <activity
+            android:name=".Sem7labprog"
+            android:label="Sem VII Lab-Programs" >
+        </activity>
+        <activity
+            android:name=".Warehousing"
+            android:label="Data Warehousing" >
+        </activity>
+        <activity
+            android:name=".IS"
+            android:label="@string/title_activity_is" >
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name=".Result"
+            android:label="@string/title_activity_result" >
+        </activity>
+        <activity
+            android:name=".Candnet"
+            android:label="C# and .NET" >
+        </activity>
+        <activity
+            android:name=".Math"
+            android:label="@string/title_activity_math" >
+        </activity>
+        <activity
+            android:name=".Electronic_Circuit"
+            android:label="@string/title_activity_electronic__circuit" >
+        </activity>
+        <activity
+            android:name=".Logic_Design"
+            android:label="Logic Design" >
+        </activity>
+        <activity
+            android:name=".DMS"
+            android:label="@string/title_activity_dms" >
+        </activity>
+        <activity
+            android:name=".Data_structure"
+            android:label="Data Structure" >
+        </activity>
+        <activity
+            android:name=".Ops"
+            android:label="OOPS" >
+        </activity>
+        <activity
+            android:name=".Sem3labprog"
+            android:label="Sem III Lab-Program" >
+        </activity>
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="simple.raj.com.vtuqpaper1.Previous_year"
+            android:label="@string/title_activity_previous_year" >
+        </activity>
+        <activity
+            android:name=".Ccycle"
+            android:label="Chemistry Cycle" >
+        </activity>
+        <activity
+            android:name=".Ccyclepaper"
+            android:label="@string/title_activity_ccyclepaper" >
+        </activity>
+        <activity
+            android:name=".CcycleSyllabus"
+            android:label="@string/title_activity_ccycle_syllabus" >
+        </activity>
+        <activity
+            android:name=".CcycleLab"
+            android:label="@string/title_activity_ccycle_lab" >
+        </activity>
+        <activity
+            android:name=".Newyear"
+            android:label="Previous Year" >
+        </activity>
+        <activity
+            android:name=".Pcycle"
+            android:label="Physics Cycle" >
+        </activity>
+        <activity
+            android:name=".Pcyclepaper"
+            android:label="@string/title_activity_pcyclepaper" >
+        </activity>
+        <activity
+            android:name=".Pcyclesyllabus"
+            android:label="@string/title_activity_pcyclesyllabus" >
+        </activity>
+        <activity
+            android:name=".Pcyclelab"
+            android:label="@string/title_activity_pcyclelab" >
+        </activity>
+        <activity
+            android:name=".Pyear"
+            android:label="Previous Year" >
+        </activity>
+        <activity
+            android:name=".Ccp"
+            android:label="@string/title_activity_ccp" >
+        </activity>
+        <activity
+            android:name=".Chem"
+            android:label="Chemistry" >
+        </activity>
+        <activity
+            android:name=".Ecb"
+            android:label="@string/title_activity_ecb" >
+        </activity>
+        <activity
+            android:name=".Math1"
+            android:label="Math I" >
+        </activity>
+        <activity
+            android:name=".Env"
+            android:label="Environment" >
+        </activity>
+        <activity
+            android:name=".Caed"
+            android:label="@string/title_activity_caed" >
+        </activity>
+        <activity
+            android:name=".PEc"
+            android:label="@string/title_activity_pec" >
+        </activity>
+        <activity
+            android:name=".CCh"
+            android:label="@string/title_activity_cch" >
+        </activity>
+        <activity
+            android:name=".CEnv"
+            android:label="@string/title_activity_cenv" >
+        </activity>
+        <activity
+            android:name=".CM1"
+            android:label="@string/title_activity_cm1" >
+        </activity>
+        <activity
+            android:name=".CDSp"
+            android:label="@string/title_activity_cdsp" >
+        </activity>
+        <activity
+            android:name=".Pphy"
+            android:label="@string/title_activity_pphy" >
+        </activity>
+        <activity
+            android:name=".PM2"
+            android:label="@string/title_activity_pm2" >
+        </activity>
+        <activity
+            android:name=".PMech"
+            android:label="@string/title_activity_pmech" >
+        </activity>
+        <activity
+            android:name=".PCiv"
+            android:label="@string/title_activity_pciv" >
+        </activity>
+        <activity
+            android:name=".PCip"
+            android:label="@string/title_activity_pcip" >
+        </activity>
+        <activity
+            android:name=".PEle"
+            android:label="@string/title_activity_pele" >
+        </activity>
+        <activity
+            android:name=".Displayresult"
+            android:label="@string/title_activity_displayresult" >
+        </activity>
+        <activity
+            android:name=".Sem4"
+            android:label="Sem IV" >
+        </activity>
+        <activity
+            android:name=".Sem4Paper"
+            android:label="@string/title_activity_sem4_paper" >
+        </activity>
+        <activity
+            android:name=".Sem4year"
+            android:label="Previous Year" >
+        </activity>
+        <activity
+            android:name=".Sem6"
+            android:label="Sem VI" >
+        </activity>
+        <activity
+            android:name=".Sem6paper"
+            android:label="@string/title_activity_sem6paper" >
+        </activity>
+        <activity
+            android:name=".Sem6year"
+            android:label="Previous Year" >
+        </activity>
+        <activity
+            android:name=".Sem3gtc"
+            android:label="@string/title_activity_sem3gtc" >
+        </activity>
+        <activity
+            android:name=".Sem3m4"
+            android:label="@string/title_activity_sem3m4" >
+        </activity>
+        <activity
+            android:name=".Sem4ada"
+            android:label="@string/title_activity_sem4ada" >
+        </activity>
+        <activity
+            android:name=".Sem4usp"
+            android:label="@string/title_activity_sem4usp" >
+        </activity>
+        <activity
+            android:name=".Sem4mp"
+            android:label="@string/title_activity_sem4mp" >
+        </activity>
+        <activity
+            android:name=".Sem4co"
+            android:label="@string/title_activity_sem4co" >
+        </activity>
+        <activity
+            android:name=".Sem4syllabus"
+            android:label="@string/title_activity_sem4syllabus" >
+        </activity>
+        <activity
+            android:name=".Sem6dbms"
+            android:label="@string/title_activity_sem6dbms" >
+        </activity>
+        <activity
+            android:name=".Sem4lab"
+            android:label="@string/title_activity_sem4lab" >
+        </activity>
+        <activity
+            android:name=".Pccyclelabprog"
+            android:label="Lab Programs" >
+        </activity>
+        <activity
+            android:name=".Sem4mpprogs"
+            android:label="Microprocessor Lab" >
+        </activity>
+        <activity
+            android:name=".Sem4adaprogs"
+            android:label="Ada Lab" >
+        </activity>
+        <activity
+            android:name=".Sem8"
+            android:label="@string/title_activity_sem8" >
+        </activity>
+        <activity
+            android:name=".Sem8paper"
+            android:label="Sem VIII Paper" >
+        </activity>
+        <activity
+            android:name=".Sem8syllabus"
+            android:label="Sem VIII Syllabus" >
+        </activity>
+        <activity
+            android:name=".Sem8year"
+            android:label="Previous Year" >
+        </activity>
+        <activity
+            android:name=".Sem6lab"
+            android:label="@string/title_activity_sem6lab" >
+        </activity>
+        <activity
+            android:name=".Sem6cgprog"
+            android:label="Computer Graphics Programs">
+        </activity>
+        <activity
+            android:name=".Sem6uspprog"
+            android:label="USP and CD Programs">
+        </activity>
+        <activity
+            android:name=".Sem6syllabus"
+            android:label="ity_sem6syllabus" >
+        </activity>
+        <activity
+            android:name=".Sem6or"
+            android:label="Operatios Research" >
+        </activity>
+        <activity
+            android:name=".Sem6mn"
+            android:label="Management and Entrepreneurship" >
+        </activity>
+        <activity
+            android:name=".Sem6cg"
+            android:label="Computer Graphics" >
+        </activity>
+        <activity
+            android:name=".Sem6cn"
+            android:label="Computer Network-II" >
+        </activity>
+        <activity
+            android:name=".Sem6usp"
+            android:label="Unix System Programming" >
+        </activity>
+        <activity
+            android:name=".Sem6cd"
+            android:label="Compiler Design" >
+        </activity>
+    </application>
+
+</manifest>

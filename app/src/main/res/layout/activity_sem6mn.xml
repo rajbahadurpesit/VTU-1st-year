@@ -1,0 +1,231 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="0dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:paddingLeft="5dp"
+        android:paddingRight="0dp">
+        <TextView android:text="MANAGEMENT AND ENTREPRENEURSHIP" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="21dp"
+            android:textColor="#ff005c00"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+        <TextView android:text="Subject Code: 10AL51/10AL61&#10;" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="20dp"
+            android:textColor="#ff005c00"
+            android:paddingLeft="50dp"
+            android:paddingRight="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;PART-A:"
+            android:textSize="22dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;&#10;UNIT-I: MANAGEMENT: "
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Introduction – Meaning – nature and characteristics of Management,   Scope  and   functional  areas   of  management –    Management as a science,   art  or  profession  Management and   Administration –   Roles  of  Management,    Levels of Management,    Development  of   Management  Thought – early  management   approaches –  Modern   management   approaches. [7 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-II : PLANNING:"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;  Nature,   importance   and   purpose   of   planning   process   –   Objectives –   Types of plans (Meaning only) –   Decision   making –   Importance   of   planning –   steps   in   planning  and   planning   premises –   Hierarchy   of   plans. [6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-III: ORGANIZING AND STAFFING :"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Nature and  purpose  of organization Principles   of   organization – Types   of  organization –   Departmentation  –  Committees –  Centralization   Vs   Decentralization  of  authority  and responsibility –   Span  of  control –   MBO  and  MBE (Meaning only)   Nature   and  importance  of  Staffing –   Process  of   Selection   and    Recruitment (in brief). [6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-IV: DIRECTING and CONTROLLING:"
+            android:textSize="19dp"
+            android:textColor="#ff212185"
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="&#10; Meaning    and    nature  of   directing –     Leadership styles,    Motivation Theories,    Communication – Meaning   and   importance –  Coordination,   meaning   and     importance and   Techniques of   Co-ordination.   Meaning   and   steps   in  controlling –    Essentials   of   a   sound   control   system -  Methods     of  establishing   control (in brief). [6 Hours]&#10;"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;PART-B:"
+            android:textSize="22dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="&#10;&#10;UNIT-V: ENTREPRENEUR:"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Meaning  of  Entrepreneur;   Evolution   of  the Concept,    Functions  of  an  Entrepreneur,   Types  of  Entrepreneur,    Intrapreneur  –   an    emerging   Class.     Concept   of   Entrepreneurship –     Evolution    of   Entrepreneurship,    Development   of   Entrepreneurship;    Stages   in   entrepreneurial   process;    Role    of    entrepreneurs    in   Economic Development;    Entrepreneurship   in   India;    Entrepreneurship   –   its   Barriers. [6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="UNIT-VI: SMALL SCALE INDUSTRY :"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Definition;   Characteristics;    Need   and   rationale:    Objectives;   Scope;   role of   SSI  in    Economic   Development.     Advantages  of SSI   Steps to  start an   SSI –    Government   policy     towards    SSI;     Different     Policies   of   S.S.I.;     Government    Support   for   S.S.I.   during   5   year  plans,   Impact   of Liberalization,   Privatization,    Globalization   on   S.5.1.,   Effect of   WTO/GATT   Supporting   Agencies    of   Government for S.5.!.,    Meaning;    Nature   of   Support;    Objectives;    Functions;    Types   of  Help;    Ancillary    Industry    and   Tiny   Industry (Definition only). [6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="UNIT-VII: INSTITUTIONAL SUPPORT:"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Different   Schemes;   TECKSOK;   KIADB;    KSSIDC;      KSIMC;    DIC     Single     Window   Agency:    SISI;     NSIC;     SIDBI;    KSFC. [6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="UNIT-VIII: PREPARATION OF PROJECT :"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10; Meaning  of  Project;    Project    Identification;     Project   Selection;    Project   Report;    Need    and    Significance   of     Report;    Contents;     formulation;     Guidelines    by     Planning     Commission    for     Project     report;      Network    Analysis;     Errors   of   Project   Report;      Project    Appraisal.    Identification    of     Business   Opportunities:    Market    Feasibility   Study;   Technical     Feasibility    Study;    Financial   Feasibility    Study   and     Social     Feasibility    Study. [6 Hours]&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Text Books:&#10;"
+            android:textColor="#ff005c00"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="1. Principles of Management – P.C. Tripathi, P.N. Reddy – Tata McGraw Hill, 2007.&#10;&#10;
+2. Dynamics of Entrepreneurial Development and Management – Vasant Desai:, Himalaya Publishing House, 2007.&#10;&#10;
+3. Entrepreneurship Development – Poornima M Charantimath – Small Business Enterprises, Pearson Education, 2006."
+            android:textColor="#ff00000f"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Reference Books:&#10;"
+            android:textColor="#ff005c00"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="
+
+    1. Management Fundamentals Concepts, Application, Skill Development – Robert Lusier –,Thompson, 2007.
+ &#10;&#10;2. Entrepreneurship Development – S. S. Khanka, S. Chand and Co., 2007.
+ &#10;&#10;3. Management – Stephen Robbins: 17th Edition, Pearson Education / PHI, 2003.
+ &#10;&#10;4. Web Sites for the Institutions listed in the Unit 7 on Institutional Support.&#10;"
+            android:textColor="#ff00000f"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

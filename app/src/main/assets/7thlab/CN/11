@@ -1,0 +1,66 @@
+11. Rsa.c
+
+#include<stdio.h>
+int z,m,n,e,d,c,flag;
+
+void check()
+{
+int i;
+for(i=3;e%i==0 && z%i==0;i++)
+{
+flag = 1;
+}
+flag = 0;
+}
+
+void encrypt()
+{
+int i;
+c = 1;
+for(i=0;i< e;i++)
+c=c*m%n;
+c=c%n;
+printf("\n\tEncrypted keyword : %d",c);
+}
+
+void decrypt()
+{
+int i;
+m = 1;
+for(i=0;i< d;i++)
+m=m*c%n;
+m=m%n;
+printf("\n\tDecrypted keyword : %d",m);
+}
+
+void main()
+{
+int p,q,s;
+printf("Enter Two Relatively Prime Numbers\t: ");
+scanf("%d%d",&p,&q);
+n = p*q;
+z=(p-1)*(q-1);
+printf("\n z value= %d",z);
+printf("\n\nEnter e: ",n);
+scanf("%d",&e);
+
+check();
+while(flag==1);
+d = 1;
+do
+{
+s = (d*e)%z;
+d++;
+}
+
+while(s!=1);
+d = d-1;
+printf("\n\tPublic Key\t: {%d,%d}",e,n);
+printf("\n\tPrivate Key\t: {%d,%d}",d,n);
+printf("\n\nEnter The Plain Text\t: ");
+scanf("%d",&m);
+encrypt();
+printf("\n\nEnter the Cipher text\t: ");
+scanf("%d",&c);
+decrypt();
+}

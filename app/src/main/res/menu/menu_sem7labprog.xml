@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="simple.raj.com.vtuqpaper.Sem7labprog">
+    <item android:id="@+id/about"  android:title="About"/>
+
+    <item android:id="@+id/playButton" android:title="Day Mode" />
+
+    <item android:id="@+id/stopButton" android:title="Night Mode" />
+
+    />
+
+
+</menu>

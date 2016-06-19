@@ -1,0 +1,41 @@
+	Software Engineering(jan-2014)
+
+	    PART — A
+
+1a.Define software, software engineering. software process. (06 Marks)
+
+b.What are attributes of good software? (08 Marks)
+
+c. Exp1ain two types of emergent properties.(06 Marks)
+
+2a.Explain system dependability.(10 Marks)
+
+b.Explain the process iteration. (10 Marks)
+
+3a.Give software requirement document (IEEE standard).(10 Marks)
+
+b.Explain requirement validation.(10 Marks)
+
+4a.Explain structured methods.(1O Marks)
+
+b. Explain risk management.(10 Marks)
+
+        PART — B
+
+5a.Explain system organisation.(10 Marks)
+
+b.Give state diagram of weather station and explain design evaluation.(10 Marks)
+
+6a.Explain extreme programming (10 Marks)
+
+b.Explain Lehman's law.(10 Marks)
+
+7a.Explain clean room software development.(10 Marks)
+
+b. Explain component testing.(10 Marks)
+
+8a.Give factor governing staff selection. (10 Marks)
+
+b.Explain factors affecting software engineering productivity and cost estimation techniques.(10 Marks)
+
+                *****

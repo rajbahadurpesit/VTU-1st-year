@@ -1,0 +1,172 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="0dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:paddingLeft="5dp"
+        android:paddingRight="0dp">
+        <TextView android:text="Engineering Physics :(14PHY12/14PHY22)&#10;" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="21dp"
+            android:textColor="#ff005c00"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-1:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Modern Physics and Quantum Mechanics:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Black body radiation spectrum, Assumptions of quantum theory of radiation,  Plank’s law,  Weins law and Rayleigh Jeans law,  for shorter and longer  wavelength  limits.    Wave Particle dualism,   deBroglie  hypothesis.   Compton Effect   and its Physical significance.   Matter waves   and their   Characteristic properties,   Phase velocity   and   group velocity.   Relation  between   phase  velocity and   group velocity, Relation    between  group  velocity  and  particle velocity.Heisenberg’s uncertainty principle and its application, (Non-existence of  electron in nucleus).&#10;&#10;
+ WAVE FUNCTION:  Properties  and physical   significance of   wave function,    Probability  density  and    Normalization of wave function.   Setting up of   one  dimensional   time independent   Schrodinger wave equation.     Eigen values and Eigen functions.     Application  of  Schrodinger   wave   equation.    Energy Eigen values   and    Eigen functions  for a particle in  a potential   well  of infinite  depth and for  free particle.&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-2:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Electrical Properties of Materials:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Free–electron concept (Drift velocity, Thermal velocity, Mean collision time,Mean free path, relaxation time).   Failure of classical free  electron  theory.    Quantum   free electron theory,    Assumptions,   Fermi factor,  density of states(qualitative only),   Fermi–Dirac Statistics. Expression for electrical conductivity   based  on quantum free electron theory,   Merits of quantum free electron theory.&#10;&#10;Conductivity  of Semi conducting materials, Concentration of electrons  and  holes in intrinsic semiconductors, law of mass action. Fermi   level in anintrinsic Semiconductor.    Hall effect,  Hall coefficient   Temperature   dependence  of resistivity in metals   and super   conducting  materials.  &#10;&#10; Effect of  magnetic field (Meissner effect). Type-I and Type-II superconductors–Temperature dependence of critical field. BCS theory(qualitative). High temperature superconductors. Applications of superconductors –. Maglev vehicles.     Free–electron concept  (Drift velocity,  Thermal velocity,   Mean collision time,   Mean free path,   relaxation time).    Failure of classical free electron theory.    Quantum  free  electron  theory,  Assumptions, Fermi factor, density of   states(qualitative only),   Fermi–Dirac Statistics. &#10;&#10;Expression for electrical   conductivity  based  on quantum free  electron theory,   Merits of quantum free   electron theory.Conductivity of Semi conducting materials, Concentration  of electrons   and  holes in intrinsic semiconductors, law of mass action. Fermi level in an   intrinsic  Semiconductor.    Hall effect,   Hall  coefficient Temperature dependence of resistivity in metals and super  conducting   materials. Effect of magnetic field (Meissner effect).   Type-I and Type-II  superconductors–Temperature   dependence of critical field.   BCS theory(qualitative). High temperature superconductors. Applications ofsuperconductors –. Maglev vehicles.&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-3:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Lasers and Optical Fibers:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Einstein’s  coefficients  (expression for energy density).    Requisites  of   a Laser system. Condition for laser action.    Principle,    Construction and   working ofCO2 laser  and semiconductor Laser. Applications of Laser –   Laser welding,   cutting   and drilling. Measurement of   atmospheric pollutants.   Holography–Principle of Recording and reconstruction of images, applications of  holography.   Propagation mechanism in optical fibers. Angle of acceptance. Numerical  aperture.    Types of optical fibers  and  modes of propagation.    Attenuation, Block diagram discussion of point to point communication, applications.&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-4:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Crystal Structure:&#10;"
+            android:textSize="19dp"
+            android:textColor="#ff212185"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="Space lattice, Bravais lattice–Unit cell,    primitive cell.    Lattice parameters.    Crystal systems. Direction and planes in a crystal. Miller indices.   Expression for inter – planar spacing.   Co-ordination number. Atomic packing factors(SC,FCC, BCC).    Bragg’s law,   Determination  of   crystal structure using   Bragg’sX–ray difractometer. Polymarphism   and   Allotropy. Crystal Structure of Diamond,   qualitative discussion of Pervoskites. Principle and working of Liquid  Crystal  display.&#10;"
+            android:textColor="#ff1c1c1c"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Module-5:"
+            android:textSize="20dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="&#10;Shock waves and Science of Nano Materials:&#10;"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Definition of  Mach number,    distinctions   between- acoustic,     ultrasonic,subsonic and supersonic waves.    Description    of a   shock wave   and   its   applications.    Basics of   conservation of mass, momentum and energy -derivation of normal shock   relationships   using simple basic   conservation   equations (Rankine-Hugonit equations).    Methods of creating   shock    waves    in  the    laboratory   using   a shock tube, description   of     hand   operated   Reddyshock    tube and its   characteristics.    Experimental   analysis of the performance   characteristics   of Reddy   shock tube.&#10;
+            Introduction to Nano Science, Density of states in 1D,  2D and   3D structures.     Synthesis : Top–down and Bottom–up approach,   Ball  Milling and Sol–Gel methods.    CNT –  Properties,   synthesis: Arc discharge, Pyrolysis methods, Applications.    Scanning   Electron  microscope:   Principle,   working  and   applications.&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Books:&#10;"
+            android:textColor="#ff005c00"
+            android:textSize="19dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="1.Engineering Physics By S.Mani Naidu."
+            android:textColor="#ff00000f"/>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,234 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="0dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:paddingLeft="5dp"
+        android:paddingRight="0dp">
+        <TextView android:text="Engineering Mathematics IV :" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="23dp"
+            android:textColor="#ff005c00"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+        <TextView android:text="Subject Code: 10CS46 &#10;" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="20dp"
+            android:textColor="#ff005c00"
+            android:paddingLeft="50dp"
+            android:paddingRight="20dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PART-A:"
+            android:textSize="22dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;&#10;Unit-I: NUMERICAL METHODS – 1 [6 hours] :"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;
+Numerical  solution   of  ordinary   differential   equations   of   first  order   and   first   degree;  Picard’s  method,    Taylor’s  series  method,    modified Euler’s   method,   Runge-kutta   method  of   fourth-order.    Milne’s   and   Adams –   Bash forth  predictor and corrector methods (No derivations of formulae).&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit-II: NUMERICAL METHODS – 2 [6 hours] :"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;
+Numerical  solution  of  simultaneous  first order  ordinary differential equations:   Picard’s method, Runge-Kutta   method of fourthorder.
+Numerical   solution of   second   order   ordinary    differential  equations:   Picard’s method,   Runge-Kutta   method  and   Milne’s method.&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit-III: Complex variables – 1 [7 hours] :"
+            android:textSize="19dp"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;
+Function of a complex variable, Analytic functions-Cauchy-Riemann equations in cartesian and polar forms.    Properties  of  analytic  functions.     Application   to flow problems-   complex  potential,   velocity  potential,   quipotential lines,   stream functions,   stream lines.&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit-IV: Complex variables –2 [7 hours] :"
+            android:textSize="19dp"
+            android:textColor="#ff212185"
+            />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="&#10;Conformal Transformations:   Bilinear Transformations.   Discussion of Transformations:   w=z2,  w = ez ,  w=z+(a2 / z) .  Complex  line  integrals-   Cauchy’s theorem  and  Cauchy’s  integral formula.&#10;"
+            android:textColor="#ff1c1c1c"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;PART-B:"
+            android:textSize="22dp"
+            android:textColor="#ff810081"
+            android:layout_gravity="center"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="&#10;&#10;Unit-V: SPECIAL FUNCTIONS [7 hours]:"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;
+Solution of Laplace equation in cylindrical  and  spherical  systems  leading Bessel’s and Legendre’s differential   equations,   Series   solution   of   Bessel’s  differential  equation   leading  to  Bessel function of first kind.    Orthogonal  property  of   Bessel  functions.    Series  solution  of   Legendre’s  differential   equation leading to Legendre  polynomials,   Rodrigue’s formula.&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="Unit-VI: PROBABILITY THEORY – 1 [6 hours] :"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;
+Probability of an event,   empherical and  axiomatic definition,   probability  associated  with  set  theory,   addition  law,   conditional  probability,   multiplication  law,   Baye’s theorem.&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="Unit-VII: PROBABILITY THEORY- 2 [7 hours] :"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;
+Random  variables (discrete and continuous),   probability  density  function,  cumulative  density  function.   Probability  distributions –   Binomial  and  Poisson  distributions;    Exponential  and  normal  distributions.&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="Unit-VIII: SAMPLING THEORY [6 hours]:"
+            android:textColor="#ff212185"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;
+Sampling,  Sampling  distributions,  standard  error,   test  of  hypothesis  for means,   confidence  limits  for  means,   student’s distribution.   Chi –Square distribution  as  a  test of  goodness  of fit.&#10;"
+            android:textSize="17dp"
+            android:textColor="#ff1c1c1c"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:background="#ff005c00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Text Books:&#10;"
+            android:textColor="#ff005c00"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="1. B.S. Grewal, Higher Engineering Mathematics, Latest edition, Khanna Publishers&#10;
+2. Erwin Kreyszig, Advanced Engineering Mathematics, Latest edition, Wiley Publications."
+            android:textColor="#ff00000f"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&#10;Reference Books:&#10;"
+            android:textColor="#ff005c00"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="1. B.V. Ramana, Higher Engineering Mathematics, Latest edition, Tata Mc. Graw Hill Publications.&#10;
+2. Peter V. O’Neil, Engineering Mathematics, CENGAGE Learning India Pvt Ltd. Publishers."
+            android:textColor="#ff00000f"/>
+
+
+    </LinearLayout>
+</ScrollView>

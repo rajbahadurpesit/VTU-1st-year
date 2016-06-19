@@ -1,0 +1,158 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="simple.raj.com.testforstring.SE"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff">
+        <TextView android:text="INFORMATION SYSTEMS(10IS72)" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="21dp"
+            android:textColor="#ff212185"
+            android:paddingLeft="50dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PART-A&#10;"
+            android:textSize="21dp"
+            android:layout_gravity="center"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-1: Foundation Concepts – 1:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Information Systems in Business: Introduction, The real world of Information Systems, Networks, What you need to know, The fundamental role of IS in business, Trends in IS, Managerial challenges of IT. &#10;
+            System Concepts: A foundation, Components of an Information System, Information System Resources, Information System activities, Recognizing Information Systems.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-2 :Foundation Concepts – 1:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fundamentals of strategic advantages: Strategic IT, Competitive strategy concepts, The competitive advantage of IT, Strategic uses of IT, Building a customer-focused business, The value chain and strategic IS, Reengineering business processes, Becoming an agile company Creating a virtual company, Building a knowledge-creating company.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-3: Enterprise Business Systems:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=": Introduction, Cross-functional enterprise applications, Enterprise application integration, Transaction processing systems, Enterprise collaboration systems.&#10;Functional Business Systems: Introduction, Marketing systems, Manufacturing systems, Human resource systems, Accounting systems, Financial management systems.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-4: Enterprise Business Systems:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Customer relationship management: Introduction, What is CRM? The three phases of CRM, Benefits and challenges of CRM, Trends in CRM Enterprise resource planning: Introduction, What is ERP? Benefits and challenges of ERP, Trends in ERP. Supply chain Management: Introduction, What is SCM? The role of SCM, Benefits and challenges of SCM, Trends in SCM.&#10;"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PART-B"
+            android:textSize="21dp"
+            android:textColor="#ff212185"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIT-5:Electronic Commerce Systems:"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electronic commerce fundamentals: Introduction, The scope of e-commerce, Essential e-commerce, processes, Electronic payment processes. e-Commerce applications and issues: E-commerce application trends, Business-to- Consumer e-commerce, Web store requirements, Business-to-Business e-commerce, e-commerce marketplaces, Clicks and bricks in e-commerce.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIT-6: Decision Support Systems:"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decision support in business: Introduction, Decision support trends, Decision support systems (DSS), Management Information Systems, On-line analytical processing, Using DSS, Executive information systems, Enterprise portals and decision support, Knowledge management systems, Business and Artificial Intelligence (AI), An overview of AI, Expert systems.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIT-7:Security and Ethical Challenges:"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text=" Security, Ethical and societal challenges of IT: Introduction, Ethical responsibility of business professionals, Computer crime, Privacy issues,Other challenges, Health issues, Societal solutions. Security management of IT: Introduction, Tools of security management, Internetworked security defenses, Other security measures, System Controls and audits.&#10;"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIT-8: Enterprise and Global Management of IT:"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Managing IT: Business and IT, Managing IT, Business / IT planning, Managing the IS function, Failures of IT management.Managing global IT: The International Dimension, Global IT Management, Cultural, Political and Geo - Economic challenges, Global Business/ IT strategies, Global Business / IT applications, Global IT Platforms, Global data access issues, Global Systems development.&#10;"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Books:"
+            android:textColor="#ff212185"
+            android:textSize="19dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="1. James A. O’ Brien, George M. Marakas: Management Information Systems, 7 th Edition, Tata McGraw Hill, 2006.(Chapters 1, 2, 7, 8, 9, 10, 13, 14)."
+            android:textColor="#ff00000f"/>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,161 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="simple.raj.com.testforstring.SE"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff">
+        <TextView android:text="System Software(10CS52)" android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="21dp"
+            android:textColor="#ff212185"
+            android:paddingLeft="50dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PART-A&#10;"
+            android:textSize="21dp"
+            android:layout_gravity="center"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-1: Machine Architecture:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction, System Software and Machine Architecture, Simplified Instructional Computer(SIC)-SIC Machine Architecture
+            , SIC/XE Machine Architecture, SIC Programming Examples.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-2 : Assemblers-1"
+            android:textSize="20dp"
+            android:textColor="#ff212185"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Basic Assembler Function-A Simple SIC Assembler, Assembler Algorithm and Data Structure,
+             Machine Dependent Assembler Features-Instruction Formats and Addressing Modes, Program Relocation.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-3: Assemblers-2:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Machine Independent Assembler features-Literals, Symbol-Definition Statements, Expression, Program Blocks,
+             Control Sections and Programming Linking, Assembler Design Operation-One Pass Assembler, Multi-Pass Assembler, Implementation Examples-MASM Assembler.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-4: Loaders and Linkers:"
+            android:textSize="20dp"
+            android:textColor="#ff212185"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Basic Loader Functions-Design of an Absolute Loader, A Simple Bootstrap Loader, Machine Dependent Loader Features-Relocation, Program Linking, Algorithm and Data Structures for a Linking Loader;
+            Machine-Independent Loader Features-Automatic Library Search, Loader Options, Loader Design Options-Linkage Editor, Dynamic Linkage Editor, Dynamic Linkage, Bootstrap Loaders, Implementation Examples-MS-DOS Linker.&#10;"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PART-B&#10;"
+            android:textSize="21dp"
+            android:textColor="#ff212185"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIT-5: Editors and Debugging Systems:"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Editors-Overview of Editing Process, User Interface, Editor Structure, Interactive Debugging Systems-Debugging  Functions and capabilities, Relationship With Other Parts Of The System, User-Interface Criteria.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIT-6: Macro Processor:"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Basic Macro Processor Function-Macro definition and Expansion, Macro Processor algorithm and Data Structure, Machine-Independent Macro Processor Features-Concatenation of Macro Parameters, Generation Of Unique Labels, Conditional Macro Expansion, Keyword Macro Parameters, Macro Processor Design Options-Recursive Macro expansion, General Purpose Macro Processors, Macro Processing Within Language Translators, Implementation Examples-MASM Macro-Processor, ANSI C Macro Processor.&#10;"
+            android:textSize="18dp"
+            android:textColor="#ff00000f"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIT-7: Lex and Yacc-1:"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Lex and Yacc-The Simplest Lex Program, Recognizing Words with Lex, Symbol Tables, Grammars, Parser-Lexer Communication, The Parts of Speech Lexer, A Yacc Parser, The Rule Section, Running LEX and Yacc, Lex and Hand-Written Expressions, A word Counting Program, Parsing a Command Line.&#10;"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="UNIT-8: Lex and Yacc-2:"
+            android:textColor="#ff212185"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Using YACC-Grammars, Recursive Rules, Shift/Reduce Parsing, What YACC Cannot Parse, A YACC Parser-The Definition Section, The Rule Section, Symbol Values and Actions, The LEXER, Compiling and Running a Simple Parser, Arithmetic Expressions and Ambiguity, Variables and Typed Tokens.&#10;"
+            android:textColor="#ff00000f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Books:"
+            android:textColor="#ff212185"
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="Leland.L.Beck: System Software, 3rd Edition, Addison-Wesley,1997."
+            android:textColor="#ff00000f"/>
+
+
+    </LinearLayout>
+</ScrollView>

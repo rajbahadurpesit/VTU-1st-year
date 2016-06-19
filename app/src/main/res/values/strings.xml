@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">VTU QPaper</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sem">SEM</string>
+    <string name="title_activity_sem7">Sem7</string>
+    <string name="title_activity_sem5">Sem5</string>
+    <string name="title_activity_sem3">Sem3</string>
+    <string name="title_activity_sem7paper">Sem7paper</string>
+    <string name="title_activity_sem7syllabus">Sem7syllabus</string>
+    <string name="title_activity_sem7lab">Sem7lab</string>
+    <string name="title_activity_ecs">ECS</string>
+    <string name="title_activity_oomd">OOMD</string>
+    <string name="title_activity_ac">ACA</string>
+    <string name="title_activity_gametheory">Gametheory</string>
+    <string name="title_activity_web">WEB</string>
+    <string name="title_activity_javaj2ee">Javaj2ee</string>
+    <string name="title_activity_sem5paper">Sem5paper</string>
+    <string name="title_activity_sem5syllabus">Sem5syllabus</string>
+    <string name="title_activity_sem5lab">Sem5lab</string>
+    <string name="title_activity_cn">CN</string>
+    <string name="title_activity_flat">FLAT</string>
+    <string name="title_activity_os">OS</string>
+    <string name="title_activity_ss">SS</string>
+    <string name="title_activity_dbms">DBMS</string>
+    <string name="title_activity_se">SE</string>
+    <string name="title_activity_year">Year</string>
+    <string name="title_activity_jan_15">JAN_15</string>
+    <string name="title_activity_june_14">JUNE_14</string>
+    <string name="title_activity_jan_14">JAN_14</string>
+    <string name="title_activity_june_13">JUNE_13</string>
+    <string name="title_activity_jan_13">JAN_13</string>
+    <string name="title_activity_sem5labsub">Sem5labsub</string>
+    <string name="title_activity_sem5labprog">Sem5labprog</string>
+    <string name="title_activity_sem7labsub">Sem7labsub</string>
+    <string name="title_activity_sem7labprog">Sem7labprog</string>
+    <string name="title_activity_warehousing">Warehousing</string>
+    <string name="title_activity_is">IS</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_my_application">MyApplication</string>
+    <string name="title_activity_result">Result</string>
+    <string name="title_activity_candnet">Candnet</string>
+
+
+    <string name="banner_ad_unit_id">ca-app-pub-5664647362626578/3543094247</string>
+
+    <string name="banner_ad_id_result">ca-app-pub-5664647362626578/9450027041</string>
+
+    <string name="banner_ad_id_year">ca-app-pub-5664647362626578/1926760247</string>
+
+    <string name="bottom_banner_on_sem5labsub"> ca-app-pub-5664647362626578/1322827840</string>
+
+    <string name="bottom_banner_on_sem7labsub">ca-app-pub-5664647362626578/5753027442</string>
+
+    <string name="title_activity_math">Math</string>
+    <string name="title_activity_electronic__circuit">Electronic_Circuit</string>
+    <string name="title_activity_logic__design">Logic_Design</string>
+    <string name="title_activity_dms">DMS</string>
+    <string name="title_activity_data_structure">Data_structure</string>
+
+
+
+    <string name="title_activity_ops">Ops</string>
+    <string name="title_activity_sem3syllabus">Sem3syllabus</string>
+    <string name="title_activity_sem3labsub">Sem3labsub</string>
+    <string name="title_activity_sem3labprog">Sem3labprog</string>
+    <string name="title_activity_sem3paper">Sem3paper</string>
+    <string name="title_activity_previous_year">Previous_year</string>
+    <string name="title_activity_sem1chem">Sem1chem</string>
+    <string name="title_activity_sem1phy">Sem1phy</string>
+    <string name="title_activity_chempaper">Chempaper</string>
+    <string name="title_activity_chemsyllabus">Chemsyllabus</string>
+    <string name="title_activity_chemlab">Chemlab</string>
+    <string name="title_activity_phylab">Phylab</string>
+    <string name="title_activity_phypaper">Phypaper</string>
+    <string name="title_activity_physyll">Physyll</string>
+    <string name="title_activity_phyyear">Phyyear</string>
+    <string name="title_activity_ccycle">Ccycle</string>
+    <string name="title_activity_ccyclepaper">Ccyclepaper</string>
+    <string name="title_activity_ccycle_syllabus">CcycleSyllabus</string>
+    <string name="title_activity_ccycle_lab">CcycleLab</string>
+    <string name="title_activity_newyear">Newyear</string>
+    <string name="title_activity_pcycle">Pcycle</string>
+    <string name="title_activity_pcyclepaper">Pcyclepaper</string>
+    <string name="title_activity_pcyclesyllabus">Pcyclesyllabus</string>
+    <string name="title_activity_pcyclelab">Pcyclelab</string>
+    <string name="title_activity_pyear">Pyear</string>
+    <string name="title_activity_ccp">Ccp</string>
+    <string name="title_activity_chem">Chem</string>
+    <string name="title_activity_ecb">Ecb</string>
+    <string name="title_activity_math1">Math1</string>
+    <string name="title_activity_env">Env</string>
+    <string name="title_activity_caed">Caed</string>
+    <string name="title_activity_pec">PEc</string>
+    <string name="title_activity_cch">CCh</string>
+    <string name="title_activity_cenv">CEnv</string>
+    <string name="title_activity_cm1">CM1</string>
+    <string name="title_activity_cdsp">CDSp</string>
+    <string name="title_activity_pphy">Pphy</string>
+    <string name="title_activity_pm2">PM2</string>
+    <string name="title_activity_pmech">PMech</string>
+    <string name="title_activity_pciv">PCiv</string>
+    <string name="title_activity_pcip">PCip</string>
+    <string name="title_activity_pele">PEle</string>
+    <string name="title_activity_displayresult">Displayresult</string>
+    <string name="title_activity_sem4">Sem4</string>
+    <string name="title_activity_sem4_paper">Sem4Paper</string>
+    <string name="title_activity_sem4year">Sem4year</string>
+    <string name="title_activity_sem6">Sem6</string>
+    <string name="title_activity_sem6paper">Sem6paper</string>
+    <string name="title_activity_sem6year">Sem6year</string>
+    <string name="title_activity_sem3gtc">Sem3gtc</string>
+    <string name="title_activity_sem3m4">Sem3m4</string>
+    <string name="title_activity_sem4ada">Sem4ada</string>
+    <string name="title_activity_sem4usp">Sem4usp</string>
+    <string name="title_activity_sem4mp">Sem4mp</string>
+    <string name="title_activity_sem4co">Sem4co</string>
+    <string name="title_activity_sem4syllabus">Sem4syllabus</string>
+    <string name="title_activity_sem6dbms">Sem6dbms</string>
+    <string name="title_activity_sem4lab">Sem4lab</string>
+    <string name="title_activity_pccyclelabprog">Pccyclelabprog</string>
+    <string name="title_activity_sem4mpprogs">Sem4mpprogs</string>
+    <string name="title_activity_sem4adaprogs">Sem4adaprogs</string>
+    <string name="title_activity_sem8">Sem8</string>
+    <string name="title_activity_sem8paper">Sem8paper</string>
+    <string name="title_activity_sem8syllabus">Sem8syllabus</string>
+    <string name="title_activity_sem8year">Sem8year</string>
+    <string name="title_activity_sem6lab">Sem6lab</string>
+    <string name="title_activity_sem6cgprog">Sem6cgprog</string>
+    <string name="title_activity_sem6uspprog">Sem6uspprog</string>
+    <string name="title_activity_sem6syllabus">Sem6syllabus</string>
+    <string name="title_activity_sem6or">Sem6or</string>
+    <string name="title_activity_sem6mn">Sem6mn</string>
+    <string name="title_activity_sem6cg">Sem6cg</string>
+    <string name="title_activity_sem6cn">Sem6cn</string>
+    <string name="title_activity_sem6usp">Sem6usp</string>
+    <string name="title_activity_sem6cd">Sem6cd</string>
+</resources>

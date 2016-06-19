@@ -1,0 +1,38 @@
+5b.l
+
+%{
+ #include"y.tab.h"
+%}
+
+%%
+a return A;
+b return B;
+[\t];
+[\n];
+. return yytext[0];
+%%
+
+5b.y
+
+%{
+#include<stdio.h>       
+#include<stdlib.h>       
+%}
+%token A B
+%%
+S:A S B
+| ;
+%%
+main()
+{
+ printf("Enter the expression\n");
+ yyparse();
+ printf("valid expression\n");
+}
+yyerror()
+{
+ printf("invalid expression\n");
+ exit(0);
+}
+
+      *****
